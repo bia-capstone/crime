@@ -1,10 +1,10 @@
 # Prepared Data
 
-### [Crime Records](county_stats)
+### [Crime Records](crime_records)
 
-### [Education]()
+### [Education](education)
 
-### [County Statistics]()
+### [County Statistics](county_stats)
 
-### [Aggregate Crime Data]()
+### [Aggregate Crime Data](crime_aggregate)
 
