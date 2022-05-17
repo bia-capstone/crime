@@ -1,0 +1,29 @@
+,column,description
+0,county,Geographic Area common name
+1,med_age,Median age of the population for the area
+2,pop,Population Estimate for the given time range
+3,households,Estimate for the total number of household
+4,emp,Estimated number of people in the civilian labor force that are employed
+5,unemp,Estimated number of people in the civilian labor force that are not employed
+6,hispanic,Estimate for the Hispanic Population
+7,white_nh,"Estimate for the White, Non-Hispanic Population"
+8,black_nh,"Estimate for the Black, Non-Hispanic Population"
+9,housing_un,Estimated total number of housing units
+10,vac_hu,Estimated number of vacant housing units
+11,nohsdipl,Estimated population 25 years or older that does not have a high school diploma or equivalent (GED) level of education
+12,med_hh_inc,Estimated median household income
+13,per_cap_in,Estimated per capita income
+14,not_citz,Estimated total population that is not a US Citizen
+15,brn_oth_st,Estimated total population that was born in a state other than Colorado
+16,pop_3pl,Estimated total population 3 years old or higher. (Universe for school enrollment)
+17,enrolled,Estimated total population 3+ who are enrolled in school
+18,n_enrolled,Population 3 yrs and older not enrolled in school
+19,gr_9_12,Estimated total population enrolled in grades 9-12
+20,med_hm_val,Estimated median home value
+21,med_yr_blt,median year structure built
+22,own_occ_hu,Estimated number of owner occupied housing units
+23,v_l_50k,"Estimated number of owner occupied housing units where the home value is less than $50,000"
+24,ps_uni,Estimated total population for whom poverty status is determined
+25,ps_below,Estimated population for whom poverty status is below the poverty level
+26,tot_l18,Estimated population who is under 18 years of age for whom poverty status is determined.                    [B17001_048
+27,pov_l18,Estimated population who is under 18 years of age where the status is below the poverty line

@@ -1,0 +1,3287 @@
+Crimes in Colorado
+https://dev.socrata.com/foundry/data.colorado.gov/j6g4-gayk 
+
+Offenses in Colorado for 2016 through 2019 by Agency from the FBI's
+Crime Data Explorer.
+
+Rows:    1851996
+Cols:    9
+Period:  2016 to 2019
+
+COLUMNS:
+-------
+Pub Agency Name
+  Field:  pub_agency_name
+  Type:   text
+  Null:   624
+  Count:  1,851,372
+  ITEMS:
+     Denver  (290,286)
+     Colorado Springs  (200,885)
+     Aurora  (160,399)
+     Pueblo  (76,642)
+     Lakewood  (75,971)
+     Thornton  (51,009)
+     Fort Collins  (50,638)
+     Boulder  (44,195)
+     Greeley  (42,376)
+     Adams  (41,716)
+     Westminster  (40,728)
+     Grand Junction  (37,108)
+     Douglas  (36,271)
+     Jefferson  (35,224)
+     Arvada  (34,023)
+     Longmont  (33,721)
+     El Paso  (32,434)
+     Loveland  (27,101)
+     Commerce City  (23,559)
+     Arapahoe  (22,895)
+
+County Name
+  Field:  county_name
+  Type:   text
+  Null:   6,346
+  Count:  1,845,650
+  ITEMS:
+     DENVER  (291,398)
+     EL PASO  (247,120)
+     DOUGLAS; ADAMS; ARAPAHOE  (160,399)
+     JEFFERSON  (133,694)
+     ADAMS  (123,434)
+     LARIMER  (105,447)
+     ARAPAHOE  (85,902)
+     PUEBLO  (77,782)
+     DOUGLAS  (71,079)
+     WELD  (69,932)
+     BOULDER  (66,446)
+     MESA  (59,033)
+     JEFFERSON; ADAMS  (40,728)
+     ADAMS; JEFFERSON  (34,023)
+     WELD; BOULDER  (33,721)
+     WELD; ADAMS  (32,177)
+     BROOMFIELD  (20,920)
+     GARFIELD  (17,134)
+     DOUGLAS; JEFFERSON; ARAPAHOE  (13,389)
+     MONTROSE  (13,224)
+
+Incident Date
+  Field:  incident_date
+  Type:   calendar_date
+  Null:   624
+  Count:  1,851,372
+
+Incident Hour
+  Field:  incident_hour
+  Type:   number
+  Null:   25,821
+  Count:  1,826,175
+  Min:    -
+  Max:    23
+  Avg:    -
+  Sum:    -
+
+Offense Name
+  Field:  offense_name
+  Type:   text
+  Null:   624
+  Count:  1,851,372
+  ITEMS:
+     Destruction/Damage/Vandalism of Property  (235,718)
+     All Other Larceny  (204,129)
+     Simple Assault  (168,572)
+     Theft From Motor Vehicle  (146,624)
+     Shoplifting  (139,258)
+     Drug/Narcotic Violations  (133,698)
+     Burglary/Breaking & Entering  (124,713)
+     Motor Vehicle Theft  (114,445)
+     Drug Equipment Violations  (75,755)
+     Aggravated Assault  (62,817)
+     Theft From Building  (58,792)
+     Theft of Motor Vehicle Parts or Accessories  (47,763)
+     False Pretenses/Swindle/Confidence Game  (37,736)
+     Impersonation  (37,240)
+     Weapon Law Violations  (34,906)
+     Counterfeiting/Forgery  (32,255)
+     Credit Card/Automated Teller Machine Fraud  (31,918)
+     Robbery  (31,302)
+     Intimidation  (22,178)
+     Identity Theft  (18,508)
+
+Crime Against
+  Field:  crime_against
+  Type:   text
+  Null:   624
+  Count:  1,851,372
+  ITEMS:
+     Property  (1,297,541)
+     Person  (299,546)
+     Society  (254,285)
+
+Offense Category Name
+  Field:  offense_category_name
+  Type:   text
+  Null:   624
+  Count:  1,851,372
+  ITEMS:
+     Larceny/Theft Offenses  (601,434)
+     Assault Offenses  (253,567)
+     Destruction/Damage/Vandalism of Property  (235,718)
+     Drug/Narcotic Offenses  (209,453)
+     Fraud Offenses  (130,195)
+     Burglary/Breaking & Entering  (124,713)
+     Motor Vehicle Theft  (114,445)
+     Weapon Law Violations  (34,906)
+     Sex Offenses  (32,728)
+     Counterfeiting/Forgery  (32,255)
+     Robbery  (31,302)
+     Stolen Property Offenses  (15,571)
+     Kidnapping/Abduction  (10,960)
+     Arson  (5,638)
+     Pornography/Obscene Material  (4,349)
+     Prostitution Offenses  (3,153)
+     Embezzlement  (2,749)
+     Extortion/Blackmail  (2,645)
+     Animal Cruelty  (2,350)
+     Homicide Offenses  (1,608)
+
+Offense Group
+  Field:  offense_group
+  Type:   text
+  Null:   624
+  Count:  1,851,372
+
+Age Num
+  Field:  age_num
+  Type:   number
+  Null:   802,925
+  Count:  1,049,071
+  Min:    1
+  Max:    98
+  Avg:    -
+  Sum:    -
+
+
+----------------------------------------------------------------------
+
+Crimes in Colorado 1997 to 2015
+https://dev.socrata.com/foundry/data.colorado.gov/6vnq-az4b 
+
+Crime stats for the State of Colorado from 1997 to 2015. Data provided
+by the CDPS and the FBI's Crime Data Explorer (CDE).
+
+Rows:    4952282
+Cols:    10
+Period:  1997 to 2015
+
+COLUMNS:
+-------
+Agency Name
+  Field:  agency_name
+  Type:   text
+  Null:   380
+  Count:  4,951,902
+  ITEMS:
+     Colorado Springs Police Department  (768,694)
+     Aurora Police Department  (587,700)
+     Denver Police Department  (521,028)
+     Lakewood Police Department  (320,384)
+     Adams County Sheriff's Office  (161,497)
+     Jefferson County Sheriff's Office  (145,019)
+     Westminster Police Department  (122,324)
+     Grand Junction Police Department  (120,420)
+     Fort Collins Police Department  (105,624)
+     Greeley Police Department  (102,768)
+     Arapahoe County Sheriff's Office  (97,761)
+     Pueblo Police Department  (87,106)
+     Commerce City Police Department  (83,376)
+     Longmont Police Department  (81,454)
+     El Paso County Sheriff's Office  (78,617)
+     Northglenn Police Department  (69,986)
+     Arvada Police Department  (66,881)
+     Larimer County Sheriff's Office  (66,564)
+     Mesa County Sheriff's Office  (64,631)
+     Centennial Police Department  (59,761)
+
+Agency Type Name
+  Field:  agency_type_name
+  Type:   text
+  Null:   380
+  Count:  4,951,902
+  ITEMS:
+     City  (4,012,471)
+     County  (850,360)
+     University or College  (60,693)
+     State Police  (24,480)
+     Other State Agency  (3,325)
+     Other  (557)
+     Tribal  (16)
+
+City Name
+  Field:  city_name
+  Type:   text
+  Null:   939,702
+  Count:  4,012,580
+  ITEMS:
+     Colorado Springs  (768,694)
+     Aurora  (587,700)
+     Denver  (541,421)
+     Lakewood  (320,384)
+     Westminster  (122,324)
+     Grand Junction  (120,420)
+     Fort Collins  (105,624)
+     Greeley  (102,768)
+     Englewood  (97,958)
+     Pueblo  (87,106)
+     Commerce City  (83,376)
+     Longmont  (81,454)
+     Northglenn  (69,986)
+     Arvada  (66,881)
+     Broomfield  (56,900)
+     Wheat Ridge  (56,554)
+     Brighton  (37,813)
+     Boulder  (36,768)
+     Montrose  (33,409)
+     Parker  (31,949)
+
+Primary County
+  Field:  primary_county
+  Type:   text
+  Null:   24,938
+  Count:  4,927,344
+  ITEMS:
+     El Paso  (881,966)
+     Arapahoe  (846,285)
+     Jefferson  (620,866)
+     Adams  (535,522)
+     Denver  (530,939)
+     Larimer  (212,468)
+     Mesa  (189,866)
+     Weld  (169,254)
+     Boulder  (155,403)
+     Pueblo  (99,231)
+     Douglas  (87,111)
+     Eagle  (56,952)
+     Broomfield  (46,913)
+     Garfield  (45,575)
+     Montrose  (42,692)
+     Fremont  (31,983)
+     Summit  (31,567)
+     Logan  (25,578)
+     Routt  (23,988)
+     Montezuma  (23,656)
+
+Incident Hour
+  Field:  incident_hour
+  Type:   number
+  Null:   139,976
+  Count:  4,812,306
+  Min:    -
+  Max:    23.0
+  Avg:    -
+  Sum:    -
+
+Offense Name
+  Field:  offense_name
+  Type:   text
+  Null:   2,376
+  Count:  4,949,906
+  ITEMS:
+     Destruction/Damage/Vandalism of Property  (856,498)
+     All Other Larceny  (490,294)
+     Burglary/Breaking & Entering  (417,155)
+     Theft From Motor Vehicle  (409,580)
+     Simple Assault  (384,606)
+     Drug/Narcotic Violations  (336,799)
+     Shoplifting  (333,980)
+     Motor Vehicle Theft  (236,154)
+     Theft From Building  (227,305)
+     Drug Equipment Violations  (215,826)
+     Aggravated Assault  (149,720)
+     Theft of Motor Vehicle Parts or Accessories  (149,304)
+     Counterfeiting/Forgery  (101,317)
+     Impersonation  (93,960)
+     False Pretenses/Swindle/Confidence Game  (91,190)
+     Robbery  (78,457)
+     Weapon Law Violations  (69,222)
+     Credit Card/Automated Teller Machine Fraud  (59,983)
+     Intimidation  (40,110)
+     Stolen Property Offenses  (33,671)
+
+Crime Against
+  Field:  crime_against
+  Type:   text
+  Null:   2,376
+  Count:  4,949,906
+  ITEMS:
+     Property  (3,635,797)
+     Person  (677,735)
+     Society  (636,117)
+     Not a Crime  (257)
+
+Offense Category Name
+  Field:  offense_category_name
+  Type:   text
+  Null:   2,585
+  Count:  4,949,697
+  ITEMS:
+     Larceny/Theft Offenses  (1,629,963)
+     Destruction/Damage/Vandalism of Property  (856,498)
+     Assault Offenses  (574,436)
+     Drug/Narcotic Offenses  (552,625)
+     Burglary/Breaking & Entering  (417,155)
+     Fraud Offenses  (250,330)
+     Motor Vehicle Theft  (236,154)
+     Counterfeiting/Forgery  (101,317)
+     Robbery  (78,457)
+     Sex Offenses  (75,765)
+     Weapon Law Violations  (69,222)
+     Stolen Property Offenses  (33,671)
+     Kidnapping/Abduction  (24,622)
+     Arson  (19,202)
+     Prostitution Offenses  (10,778)
+     Embezzlement  (10,102)
+     Pornography/Obscene Material  (3,068)
+     Homicide Offenses  (3,047)
+     Extortion/Blackmail  (1,850)
+     Bribery  (1,079)
+
+Age Num
+  Field:  age_num
+  Type:   number
+  Null:   2,337,245
+  Count:  2,615,037
+  Min:    1.0
+  Max:    98.0
+  Avg:    -
+  Sum:    -
+
+Incident Date
+  Field:  incident_date
+  Type:   calendar_date
+  Null:   2,756
+  Count:  4,949,526
+
+
+----------------------------------------------------------------------
+
+Crime Arrests by Police District 2001-2016 in Colorado
+https://dev.socrata.com/foundry/data.colorado.gov/2e5i-5hfy 
+
+Criminal arrests summarized by type of crime for police districts in
+Colorado from 2001 to 2016 from the Colorado Department of Public
+Safety (CDPS).
+
+Rows:    93114
+Cols:    5
+Period:  2001 to 2016
+
+COLUMNS:
+-------
+Year
+  Field:  year
+  Type:   number
+  Null:   -
+  Count:  93,114
+  Min:    2,001
+  Max:    2,016
+  Avg:    2,008.78
+  Sum:    187,045,688
+
+adultCount
+  Field:  adultcount
+  Type:   number
+  Null:   7,365
+  Count:  85,749
+  Min:    -
+  Max:    12,641
+  Avg:    29.15
+  Sum:    2,499,309
+
+juvenileCount
+  Field:  juvenilecount
+  Type:   number
+  Null:   3,994
+  Count:  89,120
+  Min:    -
+  Max:    2,764
+  Avg:    7.11
+  Sum:    633,749
+
+Type
+  Field:  type
+  Type:   text
+  Null:   450
+  Count:  92,664
+  ITEMS:
+     Murder Non Negligent Manslaughter  (20)
+     Rape  (19)
+     Robbery  (18)
+     Aggravated Assault  (17)
+     Burglary  (16)
+     Larceny  (15)
+     Motor Vehicle Theft  (14)
+     Other Assaults  (13)
+     Arson  (12)
+     Forgery  (11)
+     Fraud  (10)
+     Embezzlement  (9)
+     Stolen Property  (8)
+     Vandalism  (7)
+     Weapons  (6)
+     Prostitution  (5)
+     Other Sex Offenses  (4)
+     Drug Violations  (3)
+     Gambling  (2)
+     Other Family Offenses  (1)
+
+policeDistrict
+  Field:  policedistrict
+  Type:   text
+  Null:   -
+  Count:  93,114
+  ITEMS:
+     Mesa County Sheriff  (20)
+     Fremont County Sheriff  (19)
+     Dillon PD  (18)
+
+
+----------------------------------------------------------------------
+
+District Student Mobility/Stability Statistics for 2011-2012 by Instructional Program/Service Type
+https://dev.socrata.com/foundry/data.colorado.gov/6wcd-ysh5 
+
+The 2011-12 school year marked the sixth year in which the Colorado
+Department of Education calculated and reported student mobility
+rates. In addition, this year the state began reporting stability
+rates. The stability rate represents the number and percent of
+students who remained at a school/district without interruption
+throughout the school year.
+
+Rows:    184
+Cols:    60
+Period:  2011 to 2012
+
+COLUMNS:
+-------
+School Year
+  Field:  school_year
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    20,112,012
+  Max:    20,112,012
+  Avg:    20,112,012
+  Sum:    3,700,610,208
+
+Org. Code
+  Field:  org_code
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    10
+  Max:    9,999
+  Avg:    1,919.04
+  Sum:    353,104
+
+Organization Name
+  Field:  organization_name
+  Type:   text
+  Null:   -
+  Count:  184
+  ITEMS:
+     EATON RE-2  (20)
+     KEENESBURG RE-3(J)  (19)
+     WINDSOR RE-4  (18)
+     JOHNSTOWN-MILLIKEN RE-5J  (17)
+     GREELEY 6  (16)
+     PLATTE VALLEY RE-7  (15)
+     WELD COUNTY S/D RE-8  (14)
+     AULT-HIGHLAND RE-9  (13)
+     BRIGGSDALE RE-10  (12)
+     PRAIRIE RE-11  (11)
+     PAWNEE RE-12  (10)
+     YUMA 1  (9)
+     WRAY RD-2  (8)
+     IDALIA RJ-3  (7)
+     LIBERTY J-4  (6)
+     CHARTER SCHOOL INSTITUTE  (5)
+     MOUNTAIN BOCES  (4)
+     CENTENNIAL BOCES  (3)
+     SAN JUAN BOCES  (2)
+     EXPEDITIONARY BOCES  (1)
+
+Category
+  Field:  category
+  Type:   text
+  Null:   -
+  Count:  184
+
+Total Pupil Count (All students)
+  Field:  total_pupil_count_all_students
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    16
+  Max:    939,283
+  Avg:    10,209.6
+  Sum:    1,878,566
+
+Total Stable Pupil Count (All Students)
+  Field:  total_stable_pupil_count_all_students
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    705,064
+  Avg:    7,663.74
+  Sum:    1,410,128
+
+Total Stability Rate (All Students)
+  Field:  total_stability_rate_all_students
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    84.5
+  Avg:    69.91
+  Sum:    12,863.4
+
+Total Mobile Student Count (All students)
+  Field:  total_mobile_student_count_all_students
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    13
+  Max:    231,706
+  Avg:    2,518.54
+  Sum:    463,412
+
+Total Student Mobility Rate (All students)
+  Field:  total_student_mobility_rate_all_students
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    15.4
+  Max:    100
+  Avg:    30.14
+  Sum:    5,546.2
+
+Total Instances of Mobility (All students)
+  Field:  total_instances_of_mobility_all_students
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    13
+  Max:    253,577
+  Avg:    2,756.27
+  Sum:    507,154
+
+Total Mobility Incidence Rate (All students)
+  Field:  total_mobility_incidence_rate_all_students
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    16.3
+  Max:    100
+  Avg:    31.55
+  Sum:    5,804.7
+
+Students with Disabilities Pupil Count
+  Field:  students_with_disabilities_pupil_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    1
+  Max:    84,121
+  Avg:    914.36
+  Sum:    168,242
+
+Students with Disabilities Stable Student Count
+  Field:  students_with_disabilities_stable_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    65,593
+  Avg:    712.97
+  Sum:    131,186
+
+Students with Disabilities Stability Rate
+  Field:  students_with_disabilities_stability_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    70.72
+  Sum:    13,013.4
+
+Students with Disabilities Mobile Student Count
+  Field:  students_with_disabilities_mobile_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    18,348
+  Avg:    199.43
+  Sum:    36,696
+
+Students with Disabilities Student Mobility Rate
+  Field:  students_with_disabilities_student_mobility_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    29.54
+  Sum:    5,436.2
+
+Students with Disabilities Instances of Mobility
+  Field:  students_with_disabilities_instances_of_mobility
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    20,784
+  Avg:    225.91
+  Sum:    41,568
+
+Students with Disabilities Mobility Incidence Rate
+  Field:  students_with_disabilities_mobility_incidence_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    30.97
+  Sum:    5,698.8
+
+English Language Learners Pupil Count
+  Field:  english_language_learners_pupil_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    135,712
+  Avg:    1,475.13
+  Sum:    271,424
+
+English Language Learners Stable Student Count
+  Field:  english_language_learners_stable_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    101,683
+  Avg:    1,105.25
+  Sum:    203,366
+
+English Language Learners Stability Rate
+  Field:  english_language_learners_stability_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    62.53
+  Sum:    11,506.1
+
+English Language Learners Mobile Student Count
+  Field:  english_language_learners_mobile_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    33,730
+  Avg:    366.63
+  Sum:    67,460
+
+English Language Learners Student Mobility Rate
+  Field:  english_language_learners_student_mobility_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    26.02
+  Sum:    4,787.6
+
+English Language Learners Instances of Mobility
+  Field:  english_language_learners_instances_of_mobility
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    37,912
+  Avg:    412.09
+  Sum:    75,824
+
+English Language Learners Mobility Incidence Rate
+  Field:  english_language_learners_mobility_incidence_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    27.29
+  Sum:    5,021.0
+
+Economically Disadvantaged Pupil Count
+  Field:  economically_disadvantaged_pupil_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    369,904
+  Avg:    4,020.7
+  Sum:    739,808
+
+Economically Disadvantaged Stable Student Count
+  Field:  economically_disadvantaged_stable_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    273,934
+  Avg:    2,977.54
+  Sum:    547,868
+
+Economically Disadvantaged Stability Rate
+  Field:  economically_disadvantaged_stability_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    89
+  Avg:    67.37
+  Sum:    12,395.9
+
+Economically Disadvantaged Mobile Student Count
+  Field:  economically_disadvantaged_mobile_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    94,138
+  Avg:    1,023.24
+  Sum:    188,276
+
+Economically Disadvantaged Student Mobility Rate
+  Field:  economically_disadvantaged_student_mobility_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    94.4
+  Avg:    31.5
+  Sum:    5,796.3
+
+Economically Disadvantaged Instances of Mobility
+  Field:  economically_disadvantaged_instances_of_mobility
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    107,242
+  Avg:    1,165.67
+  Sum:    214,484
+
+Economically Disadvantaged Mobility Incidence Rate
+  Field:  economically_disadvantaged_mobility_incidence_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    94.4
+  Avg:    33.29
+  Sum:    6,124.8
+
+Migrant Pupil Count
+  Field:  migrant_pupil_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    2,732
+  Avg:    29.7
+  Sum:    5,464
+
+Migrant Stable Student Count
+  Field:  migrant_stable_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    1,725
+  Avg:    18.75
+  Sum:    3,450
+
+Migrant Stability Rate
+  Field:  migrant_stability_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    35.91
+  Sum:    6,607.3
+
+Migrant Mobile Student Count
+  Field:  migrant_mobile_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    988
+  Avg:    10.74
+  Sum:    1,976
+
+Migrant Student Mobility Rate
+  Field:  migrant_student_mobility_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    21.64
+  Sum:    3,981.8
+
+Migrant Instances of Mobility
+  Field:  migrant_instances_of_mobility
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    1,108
+  Avg:    12.04
+  Sum:    2,216
+
+Migrant Mobility Incidence Rate
+  Field:  migrant_mobility_incidence_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    22.36
+  Sum:    4,114.4
+
+Title 1 Pupil Count
+  Field:  title_1_pupil_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    223,008
+  Avg:    2,424
+  Sum:    446,016
+
+Title 1 Stable Student Count
+  Field:  title_1_stable_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    156,814
+  Avg:    1,704.5
+  Sum:    313,628
+
+Title 1 Pupil Stability Rate
+  Field:  title_1_pupil_stability_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    70.17
+  Sum:    12,911.6
+
+Title 1 Mobile Student Count
+  Field:  title_1_mobile_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    64,601
+  Avg:    702.18
+  Sum:    129,202
+
+Title 1 Student Mobility Rate
+  Field:  title_1_student_mobility_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    63.6
+  Avg:    24.92
+  Sum:    4,586.0
+
+Title 1 Instances of Mobility
+  Field:  title_1_instances_of_mobility
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    73,472
+  Avg:    798.61
+  Sum:    146,944
+
+Title 1 Mobility Incidence Rate
+  Field:  title_1_mobility_incidence_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    63.6
+  Avg:    26.37
+  Sum:    4,851.4
+
+Homeless Pupil Count
+  Field:  homeless_pupil_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    21,337
+  Avg:    231.92
+  Sum:    42,674
+
+Homeless Stable Student Count
+  Field:  homeless_stable_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    11,326
+  Avg:    123.11
+  Sum:    22,652
+
+Homeless Stability Rate
+  Field:  homeless_stability_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    24.03
+  Sum:    4,421.8
+
+Homeless Mobile Student Count
+  Field:  homeless_mobile_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    9,665
+  Avg:    105.05
+  Sum:    19,330
+
+Homeless Student Mobility Rate
+  Field:  homeless_student_mobility_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    34.41
+  Sum:    6,331.8
+
+Homeless Instances of Mobility
+  Field:  homeless_instances_of_mobility
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    11,558
+  Avg:    125.63
+  Sum:    23,116
+
+Homeless Mobility Incidence Rate
+  Field:  homeless_mobility_incidence_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    160
+  Avg:    37.25
+  Sum:    6,853.5
+
+Gifted & Talented Pupil Count
+  Field:  gifted_talented_pupil_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    73,344
+  Avg:    797.22
+  Sum:    146,688
+
+Gifted & Talented Stable Student Count
+  Field:  gifted_talented_stable_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    66,620
+  Avg:    724.13
+  Sum:    133,240
+
+Gifted & Talented Stability Rate
+  Field:  gifted_talented_stability_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    83.61
+  Sum:    15,384.5
+
+Gifted & Talented Mobile Student Count
+  Field:  gifted_talented_mobile_student_count
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    6,641
+  Avg:    72.18
+  Sum:    13,282
+
+Gifted & Talented Student Mobility Rate
+  Field:  gifted_talented_student_mobility_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    10.97
+  Sum:    2,018.5
+
+Gifted & Talented Instances of Mobility
+  Field:  gifted_talented_instances_of_mobility
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    7,366
+  Avg:    80.07
+  Sum:    14,732
+
+Gifted & Talented Mobility Incidence Rate
+  Field:  gifted_talented_mobility_incidence_rate
+  Type:   number
+  Null:   -
+  Count:  184
+  Min:    -
+  Max:    100
+  Avg:    11.91
+  Sum:    2,192.2
+
+
+----------------------------------------------------------------------
+
+District Graduation Data by Instructional Program Service type for class of 2011-12
+https://dev.socrata.com/foundry/data.colorado.gov/cfyh-6xxg 
+
+District Graduation data by Instructional program service type for the
+2011-2012 school year. The completion counts and rates include all
+students who graduate on-time with a regular diploma plus students who
+complete on-time with a GED or non-diploma certificate. It is
+important to note that graduates are included in the completer count
+and rate, therefore the completion counts and rates for any school or
+district will be greater than or equal to the graduation rate.
+
+Rows:    185
+Cols:    38
+Period:  2011 to 2012
+
+COLUMNS:
+-------
+County Name
+  Field:  county_name
+  Type:   text
+  Null:   2
+  Count:  183
+  ITEMS:
+     ADAMS  (20)
+     ARAPAHOE  (19)
+     BACA  (18)
+     BOULDER  (17)
+     CONEJOS  (16)
+     ELBERT  (15)
+     EL PASO  (14)
+     FREMONT  (13)
+     GARFIELD  (12)
+     KIT CARSON  (11)
+     LA PLATA  (10)
+     LAS ANIMAS  (9)
+     LINCOLN  (8)
+     LOGAN  (7)
+     MESA  (6)
+     MONTEZUMA  (5)
+     MONTROSE  (4)
+     MORGAN  (3)
+     OTERO  (2)
+     OURAY  (1)
+
+Organization Code
+  Field:  organization_code
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    10
+  Max:    9,999
+  Avg:    1,948.23
+  Sum:    360,423
+
+Organization Name
+  Field:  organization_name
+  Type:   text
+  Null:   -
+  Count:  185
+  ITEMS:
+     EATON RE-2  (20)
+     KEENESBURG RE-3(J)  (19)
+     WINDSOR RE-4  (18)
+     JOHNSTOWN-MILLIKEN RE-5J  (17)
+     GREELEY 6  (16)
+     PLATTE VALLEY RE-7  (15)
+     WELD COUNTY S/D RE-8  (14)
+     AULT-HIGHLAND RE-9  (13)
+     BRIGGSDALE RE-10  (12)
+     PRAIRIE RE-11  (11)
+     PAWNEE RE-12  (10)
+     YUMA 1  (9)
+     WRAY RD-2  (8)
+     IDALIA RJ-3  (7)
+     LIBERTY J-4  (6)
+     CHARTER SCHOOL INSTITUTE  (5)
+     MOUNTAIN BOCES  (4)
+     CENTENNIAL BOCES  (3)
+     SAN JUAN BOCES  (2)
+     EXPEDITIONARY BOCES  (1)
+
+Students with Disabilities Final Grad Base
+  Field:  students_with_disabilities_final_grad_base
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    5,775
+  Avg:    93.65
+  Sum:    17,325
+
+Students with Disabilities Graduates Total
+  Field:  students_with_disabilities_graduates_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    3,099
+  Avg:    50.25
+  Sum:    9,297
+
+Students with Disabilities Graduation Rate
+  Field:  students_with_disabilities_graduation_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    58.16
+  Sum:    10,759.7
+
+Students with Disabilities Completers Total
+  Field:  students_with_disabilities_completers_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    3,222
+  Avg:    52.25
+  Sum:    9,666
+
+Students with Disabilities Completion Rate
+  Field:  students_with_disabilities_completion_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    60.37
+  Sum:    11,167.6
+
+Limited English Proficient Final Grad Base
+  Field:  limited_english_proficient_final_grad_base
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    6,171
+  Avg:    100.07
+  Sum:    18,513
+
+Limited English Proficient Graduates Total
+  Field:  limited_english_proficient_graduates_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    3,289
+  Avg:    53.34
+  Sum:    9,867
+
+Limited English Proficient Graduation Rate
+  Field:  limited_english_proficient_graduation_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    44.06
+  Sum:    8,151.1
+
+Limited English Proficient Completers Total
+  Field:  limited_english_proficient_completers_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    3,364
+  Avg:    54.55
+  Sum:    10,092
+
+Limited English Proficient Completion Rate
+  Field:  limited_english_proficient_completion_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    45.31
+  Sum:    8,381.6
+
+Econ. Disadvant. Final Grad Base
+  Field:  econ_disadvant_final_grad_base
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    25,718
+  Avg:    417.05
+  Sum:    77,154
+
+Econ. Disadvant. Graduates Total
+  Field:  econ_disadvant_graduates_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    15,791
+  Avg:    256.07
+  Sum:    47,373
+
+Econ. Disadvant. Graduation Rate
+  Field:  econ_disadvant_graduation_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    73.62
+  Sum:    13,619.3
+
+Econ. Disadvant. Completers Total
+  Field:  econ_disadvant_completers_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    16,726
+  Avg:    271.23
+  Sum:    50,178
+
+Econ. Disadvant. Completion Rate
+  Field:  econ_disadvant_completion_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    77.68
+  Sum:    14,371.4
+
+Migrant Final Grad Base
+  Field:  migrant_final_grad_base
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    384
+  Avg:    6.23
+  Sum:    1,152
+
+Migrant Graduates Total
+  Field:  migrant_graduates_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    214
+  Avg:    3.47
+  Sum:    642
+
+Migrant Graduation Rate
+  Field:  migrant_graduation_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    22.57
+  Sum:    4,176.0
+
+Migrant Completers Total
+  Field:  migrant_completers_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    223
+  Avg:    3.62
+  Sum:    669
+
+Migrant Completion Rate
+  Field:  migrant_completion_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    22.96
+  Sum:    4,247.9
+
+Title 1 Final Grad Base
+  Field:  title_1_final_grad_base
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    7,398
+  Avg:    119.97
+  Sum:    22,194
+
+Title 1 Graduates Total
+  Field:  title_1_graduates_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    3,853
+  Avg:    62.48
+  Sum:    11,559
+
+Title 1 Graduation Rate
+  Field:  title_1_graduation_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    36.84
+  Sum:    6,815.3
+
+Title 1 Completers Total
+  Field:  title_1_completers_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    4,129
+  Avg:    66.96
+  Sum:    12,387
+
+Title 1 Completion Rate
+  Field:  title_1_completion_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    39.2
+  Sum:    7,252.0
+
+Homeless Final Grad Base
+  Field:  homeless_final_grad_base
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    2,394
+  Avg:    38.82
+  Sum:    7,182
+
+Homeless Graduates Total
+  Field:  homeless_graduates_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    1,175
+  Avg:    19.05
+  Sum:    3,525
+
+Homeless Graduation Rate
+  Field:  homeless_graduation_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    27.47
+  Sum:    5,081.2
+
+Homeless Completers Total
+  Field:  homeless_completers_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    1,262
+  Avg:    20.46
+  Sum:    3,786
+
+Homeless Completion Rate
+  Field:  homeless_completion_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    30.32
+  Sum:    5,609.1
+
+Gifted-Talented Final Grad Base
+  Field:  gifted_talented_final_grad_base
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    6,604
+  Avg:    107.09
+  Sum:    19,812
+
+Gifted-Talented Graduates Total
+  Field:  gifted_talented_graduates_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    6,048
+  Avg:    98.08
+  Sum:    18,144
+
+Gifted-Talented Graduation Rate
+  Field:  gifted_talented_graduation_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    78.12
+  Sum:    14,452.7
+
+Gifted-Talented Completers Total
+  Field:  gifted_talented_completers_total
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    6,156
+  Avg:    99.83
+  Sum:    18,468
+
+Gifted-Talented Completion Rate
+  Field:  gifted_talented_completion_rate
+  Type:   number
+  Null:   -
+  Count:  185
+  Min:    -
+  Max:    100.0
+  Avg:    79.65
+  Sum:    14,734.5
+
+
+----------------------------------------------------------------------
+
+Census Counties in Colorado 2019
+https://dev.socrata.com/foundry/data.colorado.gov/8j3i-rjn4 
+
+American Community Survey Census data includes demographics, education
+level, commute information, and more subset to Colorado by the
+Department of Local Affairs (DOLA).
+
+Rows:    64
+Cols:    157
+Period:  2019 to 2019
+
+COLUMNS:
+-------
+The Geom
+  Field:  the_geom
+  Type:   multipolygon
+  Null:   -
+  Count:  -
+
+Geoname
+  Field:  geoname
+  Type:   text
+  Null:   -
+  Count:  64
+  ITEMS:
+     Pitkin  (1)
+     Prowers  (1)
+     Jackson  (1)
+     Conejos  (1)
+     Broomfield  (1)
+     Larimer  (1)
+     Kit Carson  (1)
+     Hinsdale  (1)
+     Boulder  (1)
+     Bent  (1)
+     Arapahoe  (1)
+     Adams  (1)
+     Alamosa  (1)
+     Delta  (1)
+     Pueblo  (1)
+     Washington  (1)
+     El Paso  (1)
+     Logan  (1)
+     Mineral  (1)
+     Custer  (1)
+
+Geonum
+  Field:  geonum
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    108,001
+  Max:    108,125
+  Avg:    -
+  Sum:    -
+
+Pop
+  Field:  pop
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    589.0
+  Max:    705,576.0
+  Avg:    -
+  Sum:    -
+
+Hispanic
+  Field:  hispanic
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    49.0
+  Max:    210,937.0
+  Avg:    -
+  Sum:    -
+
+White Nh
+  Field:  white_nh
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    523.0
+  Max:    483,009.0
+  Avg:    -
+  Sum:    -
+
+Black Nh
+  Field:  black_nh
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    67,640.0
+  Avg:    -
+  Sum:    -
+
+Ntvam Nh
+  Field:  ntvam_nh
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    3,186.0
+  Avg:    -
+  Sum:    -
+
+Asian Nh
+  Field:  asian_nh
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    38,273.0
+  Avg:    -
+  Sum:    -
+
+Hawpi Nh
+  Field:  hawpi_nh
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    2,453.0
+  Avg:    -
+  Sum:    -
+
+Other Nh
+  Field:  other_nh
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    1,833.0
+  Avg:    -
+  Sum:    -
+
+Twoplus Nh
+  Field:  twoplus_nh
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    5.0
+  Max:    28,631.0
+  Avg:    -
+  Sum:    -
+
+Male
+  Field:  male
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    292.0
+  Max:    353,311.0
+  Avg:    -
+  Sum:    -
+
+Female
+  Field:  female
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    297.0
+  Max:    352,265.0
+  Avg:    -
+  Sum:    -
+
+Ageless5
+  Field:  ageless5
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    15.0
+  Max:    47,167.0
+  Avg:    -
+  Sum:    -
+
+Age5 9
+  Field:  age5_9
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    7.0
+  Max:    47,238.0
+  Avg:    -
+  Sum:    -
+
+Age10 14
+  Field:  age10_14
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    26.0
+  Max:    47,286.0
+  Avg:    -
+  Sum:    -
+
+Age15 19
+  Field:  age15_19
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    9.0
+  Max:    48,022.0
+  Avg:    -
+  Sum:    -
+
+Age20 24
+  Field:  age20_24
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    16.0
+  Max:    57,146.0
+  Avg:    -
+  Sum:    -
+
+Age25 29
+  Field:  age25_29
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    38.0
+  Max:    82,942.0
+  Avg:    -
+  Sum:    -
+
+Age30 34
+  Field:  age30_34
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    27.0
+  Max:    79,888.0
+  Avg:    -
+  Sum:    -
+
+Age35 39
+  Field:  age35_39
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    26.0
+  Max:    61,730.0
+  Avg:    -
+  Sum:    -
+
+Age40 44
+  Field:  age40_44
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    25.0
+  Max:    50,260.0
+  Avg:    -
+  Sum:    -
+
+Age45 49
+  Field:  age45_49
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    29.0
+  Max:    43,970.0
+  Avg:    -
+  Sum:    -
+
+Age50 54
+  Field:  age50_54
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    44.0
+  Max:    42,688.0
+  Avg:    -
+  Sum:    -
+
+Age55 59
+  Field:  age55_59
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    39.0
+  Max:    43,657.0
+  Avg:    -
+  Sum:    -
+
+Age60 64
+  Field:  age60_64
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    75.0
+  Max:    40,371.0
+  Avg:    -
+  Sum:    -
+
+Age65 69
+  Field:  age65_69
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    70.0
+  Max:    32,078.0
+  Avg:    -
+  Sum:    -
+
+Age70 74
+  Field:  age70_74
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    30.0
+  Max:    24,257.0
+  Avg:    -
+  Sum:    -
+
+Age75 79
+  Field:  age75_79
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    13.0
+  Max:    15,339.0
+  Avg:    -
+  Sum:    -
+
+Age80 84
+  Field:  age80_84
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    14.0
+  Max:    10,452.0
+  Avg:    -
+  Sum:    -
+
+Age85Pl
+  Field:  age85pl
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    10.0
+  Max:    10,667.0
+  Avg:    -
+  Sum:    -
+
+Ageless18
+  Field:  ageless18
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    76.0
+  Max:    169,876.0
+  Avg:    -
+  Sum:    -
+
+Age18 24
+  Field:  age18_24
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    16.0
+  Max:    76,983.0
+  Avg:    -
+  Sum:    -
+
+Med Age
+  Field:  med_age
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    31.8
+  Max:    59.7
+  Avg:    -
+  Sum:    -
+
+Households
+  Field:  households
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    289.0
+  Max:    301,501.0
+  Avg:    -
+  Sum:    -
+
+Familyhh
+  Field:  familyhh
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    133.0
+  Max:    175,552.0
+  Avg:    -
+  Sum:    -
+
+Nonfamhh
+  Field:  nonfamhh
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    104.0
+  Max:    155,431.0
+  Avg:    -
+  Sum:    -
+
+Hhldralone
+  Field:  hhldralone
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    85.0
+  Max:    115,204.0
+  Avg:    -
+  Sum:    -
+
+Hhldr Naln
+  Field:  hhldr_naln
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    3.0
+  Max:    40,227.0
+  Avg:    -
+  Sum:    -
+
+Housing Un
+  Field:  housing_un
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    751.0
+  Max:    321,717.0
+  Avg:    -
+  Sum:    -
+
+Occ Hu
+  Field:  occ_hu
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    289.0
+  Max:    301,501.0
+  Avg:    -
+  Sum:    -
+
+Vac Hu
+  Field:  vac_hu
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    157.0
+  Max:    20,579.0
+  Avg:    -
+  Sum:    -
+
+Owned
+  Field:  owned
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    181.0
+  Max:    164,677.0
+  Avg:    -
+  Sum:    -
+
+Rented
+  Field:  rented
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    49.0
+  Max:    151,119.0
+  Avg:    -
+  Sum:    -
+
+Pop25Plus
+  Field:  pop25plus
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    485.0
+  Max:    508,718.0
+  Avg:    -
+  Sum:    -
+
+Nohsdipl
+  Field:  nohsdipl
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    18.0
+  Max:    60,938.0
+  Avg:    -
+  Sum:    -
+
+Hsgrad Sc
+  Field:  hsgrad_sc
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    282.0
+  Max:    251,968.0
+  Avg:    -
+  Sum:    -
+
+Bachl Hghr
+  Field:  bachl_hghr
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    173.0
+  Max:    251,499.0
+  Avg:    -
+  Sum:    -
+
+Med Hh Inc
+  Field:  med_hh_inc
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    30,900
+  Max:    119,730.0
+  Avg:    -
+  Sum:    -
+
+Med Fam In
+  Field:  med_fam_in
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    39,917.0
+  Max:    134,931.0
+  Avg:    -
+  Sum:    -
+
+Per Cap In
+  Field:  per_cap_in
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    13,930.0
+  Max:    54,875.0
+  Avg:    -
+  Sum:    -
+
+Med Yr Blt
+  Field:  med_yr_blt
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    1,947.0
+  Max:    1,999.0
+  Avg:    -
+  Sum:    -
+
+Med C Rent
+  Field:  med_c_rent
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    335.0
+  Max:    1,565.0
+  Avg:    -
+  Sum:    -
+
+Med G Rent
+  Field:  med_g_rent
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    443.0
+  Max:    1,725.0
+  Avg:    -
+  Sum:    -
+
+Med Hm Val
+  Field:  med_hm_val
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    79,400
+  Max:    615,900
+  Avg:    -
+  Sum:    -
+
+Citz Birth
+  Field:  citz_birth
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    572.0
+  Max:    650,176.0
+  Avg:    -
+  Sum:    -
+
+Citz Nat
+  Field:  citz_nat
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    5.0
+  Max:    43,283.0
+  Avg:    -
+  Sum:    -
+
+Not Citz
+  Field:  not_citz
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    64,771.0
+  Avg:    -
+  Sum:    -
+
+Born In Co
+  Field:  born_in_co
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    179.0
+  Max:    281,808.0
+  Avg:    -
+  Sum:    -
+
+Brn Oth St
+  Field:  brn_oth_st
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    383.0
+  Max:    405,225.0
+  Avg:    -
+  Sum:    -
+
+Ntv B O Us
+  Field:  ntv_b_o_us
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    22,882.0
+  Avg:    -
+  Sum:    -
+
+Foreign B
+  Field:  foreign_b
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    9.0
+  Max:    105,658.0
+  Avg:    -
+  Sum:    -
+
+Pop 1P
+  Field:  pop_1p
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    589.0
+  Max:    696,798.0
+  Avg:    -
+  Sum:    -
+
+Same House
+  Field:  same_house
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    530.0
+  Max:    556,608.0
+  Avg:    -
+  Sum:    -
+
+Same Cnty
+  Field:  same_cnty
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    7.0
+  Max:    79,826.0
+  Avg:    -
+  Sum:    -
+
+Same State
+  Field:  same_state
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    25.0
+  Max:    42,087.0
+  Avg:    -
+  Sum:    -
+
+Diff State
+  Field:  diff_state
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    2.0
+  Max:    49,457.0
+  Avg:    -
+  Sum:    -
+
+Frm Abroad
+  Field:  frm_abroad
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    6,574.0
+  Avg:    -
+  Sum:    -
+
+Wrkrs 16Pl
+  Field:  wrkrs_16pl
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    339.0
+  Max:    394,894.0
+  Avg:    -
+  Sum:    -
+
+Car All
+  Field:  car_all
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    220.0
+  Max:    303,276.0
+  Avg:    -
+  Sum:    -
+
+Car Alone
+  Field:  car_alone
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    195.0
+  Max:    272,967.0
+  Avg:    -
+  Sum:    -
+
+Car Carpoo
+  Field:  car_carpoo
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    15.0
+  Max:    36,128.0
+  Avg:    -
+  Sum:    -
+
+Public Trn
+  Field:  public_trn
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    25,824.0
+  Avg:    -
+  Sum:    -
+
+Pt Bus
+  Field:  pt_bus
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    17,466.0
+  Avg:    -
+  Sum:    -
+
+Pt Other
+  Field:  pt_other
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    8,358.0
+  Avg:    -
+  Sum:    -
+
+Bike
+  Field:  bike
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    8,795.0
+  Avg:    -
+  Sum:    -
+
+Walk
+  Field:  walk
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    32.0
+  Max:    18,489.0
+  Avg:    -
+  Sum:    -
+
+Tr Other
+  Field:  tr_other
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    4,777.0
+  Avg:    -
+  Sum:    -
+
+Wrk Home
+  Field:  wrk_home
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    14.0
+  Max:    33,733.0
+  Avg:    -
+  Sum:    -
+
+W 16Pl Nh
+  Field:  w_16pl_nh
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    305.0
+  Max:    361,161.0
+  Avg:    -
+  Sum:    -
+
+T Less 10
+  Field:  t_less_10
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    126.0
+  Max:    37,072.0
+  Avg:    -
+  Sum:    -
+
+T 10 19
+  Field:  t_10_19
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    52.0
+  Max:    107,064.0
+  Avg:    -
+  Sum:    -
+
+T 20 29
+  Field:  t_20_29
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    89,019.0
+  Avg:    -
+  Sum:    -
+
+T 30 39
+  Field:  t_30_39
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    6.0
+  Max:    78,822.0
+  Avg:    -
+  Sum:    -
+
+T 40 59
+  Field:  t_40_59
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    7.0
+  Max:    47,072.0
+  Avg:    -
+  Sum:    -
+
+T 60 Pl
+  Field:  t_60_pl
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    4.0
+  Max:    24,253.0
+  Avg:    -
+  Sum:    -
+
+Pop 3Pl
+  Field:  pop_3pl
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    581.0
+  Max:    678,966.0
+  Avg:    -
+  Sum:    -
+
+Enrolled
+  Field:  enrolled
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    89.0
+  Max:    189,593.0
+  Avg:    -
+  Sum:    -
+
+Preschool
+  Field:  preschool
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    3.0
+  Max:    10,840.0
+  Avg:    -
+  Sum:    -
+
+Kndrgrtn
+  Field:  kndrgrtn
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    9,350.0
+  Avg:    -
+  Sum:    -
+
+Gr 1 4
+  Field:  gr_1_4
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    11.0
+  Max:    37,929.0
+  Avg:    -
+  Sum:    -
+
+Gr 5 8
+  Field:  gr_5_8
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    22.0
+  Max:    37,720.0
+  Avg:    -
+  Sum:    -
+
+Gr 9 12
+  Field:  gr_9_12
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    17.0
+  Max:    37,561.0
+  Avg:    -
+  Sum:    -
+
+Undergrad
+  Field:  undergrad
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    3.0
+  Max:    46,522.0
+  Avg:    -
+  Sum:    -
+
+Grad Prof
+  Field:  grad_prof
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    15,715.0
+  Avg:    -
+  Sum:    -
+
+N Enrolled
+  Field:  n_enrolled
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    492.0
+  Max:    523,081.0
+  Avg:    -
+  Sum:    -
+
+Blt 2010 P
+  Field:  blt_2010_p
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    6.0
+  Max:    29,088.0
+  Avg:    -
+  Sum:    -
+
+B2000 2009
+  Field:  b2000_2009
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    19.0
+  Max:    51,329.0
+  Avg:    -
+  Sum:    -
+
+B1990 1999
+  Field:  b1990_1999
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    55.0
+  Max:    45,097.0
+  Avg:    -
+  Sum:    -
+
+B1980 1989
+  Field:  b1980_1989
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    47.0
+  Max:    58,804.0
+  Avg:    -
+  Sum:    -
+
+B1970 1979
+  Field:  b1970_1979
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    82.0
+  Max:    66,664.0
+  Avg:    -
+  Sum:    -
+
+B1960 1969
+  Field:  b1960_1969
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    27.0
+  Max:    35,221.0
+  Avg:    -
+  Sum:    -
+
+B1950 1959
+  Field:  b1950_1959
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    26.0
+  Max:    48,199.0
+  Avg:    -
+  Sum:    -
+
+B1940 1949
+  Field:  b1940_1949
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    5.0
+  Max:    21,137.0
+  Avg:    -
+  Sum:    -
+
+B1939 E
+  Field:  b1939_e
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    156.0
+  Max:    60,727.0
+  Avg:    -
+  Sum:    -
+
+Own Occ Hu
+  Field:  own_occ_hu
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    181.0
+  Max:    164,677.0
+  Avg:    -
+  Sum:    -
+
+V L 50K
+  Field:  v_l_50k
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    6,278.0
+  Avg:    -
+  Sum:    -
+
+V50K 100K
+  Field:  v50k_100k
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    6,657.0
+  Avg:    -
+  Sum:    -
+
+V100K 150K
+  Field:  v100k_150k
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    2.0
+  Max:    10,064.0
+  Avg:    -
+  Sum:    -
+
+V150K 200K
+  Field:  v150k_200k
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    11.0
+  Max:    23,651.0
+  Avg:    -
+  Sum:    -
+
+V200K 250K
+  Field:  v200k_250k
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    10.0
+  Max:    27,582.0
+  Avg:    -
+  Sum:    -
+
+V250K 300K
+  Field:  v250k_300k
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    14.0
+  Max:    25,004.0
+  Avg:    -
+  Sum:    -
+
+V300K 400K
+  Field:  v300k_400k
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    10.0
+  Max:    42,699.0
+  Avg:    -
+  Sum:    -
+
+V400K 500K
+  Field:  v400k_500k
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    7.0
+  Max:    36,183.0
+  Avg:    -
+  Sum:    -
+
+V500K 750K
+  Field:  v500k_750k
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    3.0
+  Max:    32,808.0
+  Avg:    -
+  Sum:    -
+
+V750K 1M
+  Field:  v750k_1m
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    11,082.0
+  Avg:    -
+  Sum:    -
+
+V 1M Plus
+  Field:  v_1m_plus
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    8,930.0
+  Avg:    -
+  Sum:    -
+
+Rnt Occ Hu
+  Field:  rnt_occ_hu
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    49.0
+  Max:    151,119.0
+  Avg:    -
+  Sum:    -
+
+Rntl400
+  Field:  rntl400
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    9,744.0
+  Avg:    -
+  Sum:    -
+
+R400T599
+  Field:  r400t599
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    4,670.0
+  Avg:    -
+  Sum:    -
+
+R600T799
+  Field:  r600t799
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    11,475.0
+  Avg:    -
+  Sum:    -
+
+R800T999
+  Field:  r800t999
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    6.0
+  Max:    16,304.0
+  Avg:    -
+  Sum:    -
+
+R1000T1249
+  Field:  r1000t1249
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    28,659.0
+  Avg:    -
+  Sum:    -
+
+R1250T1499
+  Field:  r1250t1499
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    24,408.0
+  Avg:    -
+  Sum:    -
+
+R1500T1999
+  Field:  r1500t1999
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    34,456.0
+  Avg:    -
+  Sum:    -
+
+R2000Pl
+  Field:  r2000pl
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    21,187.0
+  Avg:    -
+  Sum:    -
+
+Rnocshr
+  Field:  rnocshr
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    2,883.0
+  Avg:    -
+  Sum:    -
+
+Ps Uni
+  Field:  ps_uni
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    589.0
+  Max:    693,555.0
+  Avg:    -
+  Sum:    -
+
+Ps Below
+  Field:  ps_below
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    31.0
+  Max:    89,203.0
+  Avg:    -
+  Sum:    -
+
+Ps Bel150
+  Field:  ps_bel150
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    107.0
+  Max:    145,392.0
+  Avg:    -
+  Sum:    -
+
+Tot L18
+  Field:  tot_l18
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    76.0
+  Max:    167,335.0
+  Avg:    -
+  Sum:    -
+
+Puni 65Pl
+  Field:  puni_65pl
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    146.0
+  Max:    90,245.0
+  Avg:    -
+  Sum:    -
+
+Pov L18
+  Field:  pov_l18
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    25,172.0
+  Avg:    -
+  Sum:    -
+
+Pov 65Pl
+  Field:  pov_65pl
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    3.0
+  Max:    8,674.0
+  Avg:    -
+  Sum:    -
+
+Avghhsize
+  Field:  avghhsize
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    2.01
+  Max:    3.69
+  Avg:    -
+  Sum:    -
+
+Hhi L20K
+  Field:  hhi_l20k
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    34.0
+  Max:    40,741.0
+  Avg:    -
+  Sum:    -
+
+Hhi20 30
+  Field:  hhi20_30
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    24.0
+  Max:    22,866.0
+  Avg:    -
+  Sum:    -
+
+Hhi30 40
+  Field:  hhi30_40
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    26.0
+  Max:    24,289.0
+  Avg:    -
+  Sum:    -
+
+Hhi40 50
+  Field:  hhi40_50
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    33.0
+  Max:    21,978.0
+  Avg:    -
+  Sum:    -
+
+Hhi50 60
+  Field:  hhi50_60
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    39.0
+  Max:    24,117.0
+  Avg:    -
+  Sum:    -
+
+Hhi60 75
+  Field:  hhi60_75
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    28.0
+  Max:    27,930.0
+  Avg:    -
+  Sum:    -
+
+Hhi75 100
+  Field:  hhi75_100
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    23.0
+  Max:    37,630.0
+  Avg:    -
+  Sum:    -
+
+Hhi100 125
+  Field:  hhi100_125
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    24.0
+  Max:    27,936.0
+  Avg:    -
+  Sum:    -
+
+Hhi125 150
+  Field:  hhi125_150
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    11.0
+  Max:    19,571.0
+  Avg:    -
+  Sum:    -
+
+Hhi150 200
+  Field:  hhi150_200
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    5.0
+  Max:    24,159.0
+  Avg:    -
+  Sum:    -
+
+Hhi200 Pl
+  Field:  hhi200_pl
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    5.0
+  Max:    30,417.0
+  Avg:    -
+  Sum:    -
+
+Civ Ni Pop
+  Field:  civ_ni_pop
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    589.0
+  Max:    699,351.0
+  Avg:    -
+  Sum:    -
+
+Disabled
+  Field:  disabled
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    76.0
+  Max:    82,539.0
+  Avg:    -
+  Sum:    -
+
+Pop16 Pls
+  Field:  pop16_pls
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    522.0
+  Max:    578,596.0
+  Avg:    -
+  Sum:    -
+
+Laborforce
+  Field:  laborforce
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    351.0
+  Max:    418,232.0
+  Avg:    -
+  Sum:    -
+
+Civ Lf
+  Field:  civ_lf
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    351.0
+  Max:    417,715.0
+  Avg:    -
+  Sum:    -
+
+Emp
+  Field:  emp
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    344.0
+  Max:    402,046.0
+  Avg:    -
+  Sum:    -
+
+Unemp
+  Field:  unemp
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    7.0
+  Max:    19,962.0
+  Avg:    -
+  Sum:    -
+
+Armedfrcs
+  Field:  armedfrcs
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    -
+  Max:    28,715.0
+  Avg:    -
+  Sum:    -
+
+Not Lf
+  Field:  not_lf
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    171.0
+  Max:    175,977.0
+  Avg:    -
+  Sum:    -
+
+Civ Ni 
+  Field:  civ_ni_
+  Type:   number
+  Null:   -
+  Count:  64
+  Min:    589.0
+  Max:    699,351.0
+  Avg:    -
+  Sum:    -
+
+
+----------------------------------------------------------------------
+
+Population Colorado
+https://dev.socrata.com/foundry/data.colorado.gov/eeah-cmy8 
+
+This dataset contains data on the actual and projected population by
+gender and age from 1990-2040.
+
+Rows:    381504
+Cols:    7
+Period:  1990 to 2040
+
+COLUMNS:
+-------
+County
+  Field:  county
+  Type:   text
+  Null:   -
+  Count:  -
+
+fipsCode
+  Field:  fipscode
+  Type:   number
+  Null:   -
+  Count:  -
+  Min:    -
+  Max:    -
+  Avg:    -
+  Sum:    -
+
+Year
+  Field:  year
+  Type:   number
+  Null:   -
+  Count:  -
+  Min:    -
+  Max:    -
+  Avg:    -
+  Sum:    -
+
+Age
+  Field:  age
+  Type:   number
+  Null:   -
+  Count:  -
+  Min:    -
+  Max:    -
+  Avg:    -
+  Sum:    -
+
+malePopulation
+  Field:  malepopulation
+  Type:   number
+  Null:   -
+  Count:  -
+  Min:    -
+  Max:    -
+  Avg:    -
+  Sum:    -
+
+femalePopulation
+  Field:  femalepopulation
+  Type:   number
+  Null:   -
+  Count:  -
+  Min:    -
+  Max:    -
+  Avg:    -
+  Sum:    -
+
+totalPopulation
+  Field:  totalpopulation
+  Type:   number
+  Null:   -
+  Count:  -
+  Min:    -
+  Max:    -
+  Avg:    -
+  Sum:    -
+
+
+----------------------------------------------------------------------
+
+Census Field Descriptions
+https://dev.socrata.com/foundry/data.colorado.gov/qten-sdpn 
+
+This is all of the known fields and descriptions for the census
+datasets published on CIM. The types column links to the <a
+href="https://data.colorado.gov/dataset/Census-Datasets-on-Colorado-
+Information-Marketplac/vcag-iwy7/data" target=_blank>Census Datasets
+table</a>.
+
+Rows:    753
+Cols:    4
+Period:  2019 to 2019
+
+COLUMNS:
+-------
+Type
+  Field:  type
+  Type:   text
+  Null:   -
+  Count:  753
+  ITEMS:
+     acs_old  (167)
+     acs_standard  (157)
+     acs_different  (156)
+     2000_sf3  (108)
+     2010_standard  (92)
+     2000_sf1  (73)
+
+APIFieldName
+  Field:  apifieldname
+  Type:   text
+  Null:   -
+  Count:  753
+  ITEMS:
+     male  (6)
+     black_nh  (6)
+     female  (6)
+     hispanic  (6)
+     white_nh  (6)
+     asian_nh  (6)
+     other_nh  (6)
+     med_age  (5)
+     housing_un  (5)
+     households  (5)
+     ageless18  (4)
+     age65plus  (4)
+     hhldralone  (4)
+     preschool  (4)
+     undergrad  (4)
+     nonfamhh  (4)
+     hhldr_naln  (4)
+     hawpi_nh  (4)
+     bachl_hghr  (4)
+     enrolled  (4)
+
+Description
+  Field:  description
+  Type:   text
+  Null:   1
+  Count:  752
+  ITEMS:
+     Estimate for the Hispanic Population  (6)
+     The FIPS County code that the designated area is in (eg 071).  (5)
+     The amount of land in the designated area, in ft2.  (5)
+     Median age of the population for the area  (5)
+     The amount of water in the designated area, in ft2.  (5)
+     The name of the designated area (eg Block Group 3)  (5)
+     The state id number that the designated area is in (Colorado is 08).  (5)
+     Estimate for the total female population  (4)
+     The full name of the designated area (eg Census Tract 9638, Gunnison County, Colorado)  (4)
+     Comma delimited list (no quotes, leading zeros are necessary) of geoid examples: '08' is Colorado, '08031' is Denver County , '08031000701' is a Census Tract in Denver County, and '080010078011' is a block group in Adams County, and '0668154' is the city of San Luis Obispo, CA. You can also use the integer format for geoid called geonum by prefixing the geoid with ‘1’. San Luis Obispo would then be 10668154.  (4)
+     Estimated total population 3+ who are enrolled in school  (4)
+     Estimated total population 3+ enrolled in preschool  (4)
+     Estimate for the total population less than 18 years of age (0 to 17)  (4)
+     The number of people younger than 10  (4)
+     Estimate for the Asian, Non-Hispanic Population  (4)
+     Estimate for the Hawaiian and Pacific Islander, Non-Hispanic Population  (4)
+     Estimate for the Black, Non-Hispanic Population  (4)
+     The Block Group code that the designated area is in (eg 3)  (4)
+     Estimated total population 25 years or older with a Bachelors Degree, Masters Degree, Phd or other Professional Degree  (4)
+     Estimate for the total number of nonfamily households where householder lives alone  (4)
+
+dataType
+  Field:  datatype
+  Type:   text
+  Null:   1
+  Count:  752
+  ITEMS:
+     Number  (637)
+     Text  (112)
+     Multipolygon  (3)
+
