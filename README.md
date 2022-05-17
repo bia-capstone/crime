@@ -8,5 +8,5 @@ Business analytics final project: analyzing crime data for Denver Police Departm
 | Ryan Young | |
 | | |
 
-## [Prepared Data](analyzed_datasets)
+## [Prepared Data](prepared_data)
 - Datasets we've modified from the source
