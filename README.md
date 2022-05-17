@@ -10,3 +10,9 @@ Business analytics final project: analyzing crime data for Denver Police Departm
 
 ## [Prepared Data](prepared_data)
 - Datasets we've modified from the source
+
+## [Documentation](documentation)
+
+## [Visualization](visualization)
+
+## [Presentation](presentation)
