@@ -2,7 +2,7 @@
 
 
 
-# <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/folder.svg" height="28"/> &nbsp; Data Sources
+# <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/stack.overflow.svg" height="32"/> &nbsp; Data Sources
 > All data was retrieved from the [Socrata Open Data API](https://dev.socrata.com/)'s `data.colorado.gov` endpoint. We used the [crime](https://pypi.org/project/crime/) package to explore, load, describe, and generate documentation for all datasets.
 
 
