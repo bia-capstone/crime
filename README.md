@@ -19,7 +19,7 @@
 
 <br>
 
-## [Data Sources](source_data)
+## [Data Sources](source_data/README.md)
 - Retrieved from **Socrata Open Data API** under the `data.colorado.gov` endpoint
 
 ## [Prepared Data](prepared_data)
