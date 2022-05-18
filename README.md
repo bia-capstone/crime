@@ -19,7 +19,7 @@
 ## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/stack.overflow.blue.svg" height="25"/> &nbsp; Data Sources](source_data/README.md)
 - Retrieved from **Socrata Open Data API** under the `data.colorado.gov` endpoint
 
-## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/table.blue.svg" height="25"/> &nbsp; Prepared Data](prepared_data)
+## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/table.blue.svg" height="24"/> &nbsp; Prepared Data](prepared_data)
 - Modified/engineered datasets to use in analyses
 
 ## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/bar.chart.line.blue.svg" height="25"/> &nbsp; Visualization](visualization)
