@@ -3,9 +3,6 @@
 
 <table>
     <tr>
-        <th colspan="3">Maintainers</th>
-    </tr>
-    <tr>
         <td>Anna Jackson</td>
         <td>Sonia Romero</td>
         <td>Ryan Young</td>
@@ -19,21 +16,21 @@
 
 <br>
 
-## [Data Sources](source_data/README.md)
+## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/stack.overflow.blue.svg" height="25"/> &nbsp; Data Sources](source_data/README.md)
 - Retrieved from **Socrata Open Data API** under the `data.colorado.gov` endpoint
 
-## [Prepared Data](prepared_data)
+## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/table.blue.svg" height="25"/> &nbsp; Prepared Data](prepared_data)
 - Modified/engineered datasets to use in analyses
 
-## [Visualization](visualization)
+## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/bar.chart.line.blue.svg" height="25"/> &nbsp; Visualization](visualization)
 - Initial visualizations to better understand data prior to analysis
 - Final visualizations to communicate key findings and model results
 
-## [Models](models)
+## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/gear.blue.svg" height="25"/> &nbsp; Models](models)
 - Predicting crime rates with **multilinear regression**
 - Clustering counties based on a holistic view of crime activity
 
-## [Presentation](presentation)
+## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/easel.blue.svg" height="25"/> &nbsp; Presentation](presentation)
 - Key findings and interpretations
 - Presentation slide deck for Denver Police
 
@@ -164,9 +161,14 @@
 #### Pivot and aggregate the `County Population` dataset
 - This dataset has nearly 400,000 rows despite being aggregated already. It offers a separate row for each individual age, for each county, for each year. First, the data was aggregated into two age groups (minor, adult).
 - Next, the age range column was eliminated, and the data was pivoted to be indexed by county and year to remove redundancy. The new format is better for models and analysis, whereas the unpivoted format is better for creating charts.
-    | from this | to this|
-    | - | - |
-    | <img width="200" alt="Screen Shot 2022-05-16 at 4 50 38 PM" src="https://user-images.githubusercontent.com/90723578/168773427-de4c1aa7-bb5e-4ae2-8185-507bf4d52fce.png"> | <img width="300" alt="Screen Shot 2022-05-16 at 4 51 26 PM" src="https://user-images.githubusercontent.com/90723578/168773412-722b5a2f-21fa-4948-b8f3-1ef9d2c3efc0.png"> |
+
+<table>
+    <tr>
+        <td> <img width="200" alt="Screen Shot 2022-05-16 at 4 50 38 PM" src="https://user-images.githubusercontent.com/90723578/168773427-de4c1aa7-bb5e-4ae2-8185-507bf4d52fce.png"> </td>
+        <td> <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/arrow.right.svg" height="25"/> </td>
+        <td> <img width="300" alt="Screen Shot 2022-05-16 at 4 51 26 PM" src="https://user-images.githubusercontent.com/90723578/168773412-722b5a2f-21fa-4948-b8f3-1ef9d2c3efc0.png"> </td>
+    </tr>
+</table>
 
 
 #### Demographic Data (`Census Counties Colorado` for 2012, and 2019): Select variables, group categories together
