@@ -130,13 +130,13 @@
 - Predict overall crime rate, given a county 
 - Predict crime rate for each category of crime, given a county 
 - Predict juvenile crime rate, given a county 
-- Datasets: Crimes in Colorado, Crime Arrests, Crime Offenses 
+- Datasets: `crime_16_19`, `crime_97_15`, `dist_arrests`
 
 #### Predictors
 - County demographics (33 of 157 continuous columns selected) 
 - Crime demographics – age, gender, year (from crime datasets above) 
 - Education demographics – (enrollment, graduation, mobility, stability) 
-- Additional Datasets: Student Mobility/Stability Statistics, Graduation Data, and Census Counties in Colorado 
+- Datasets: `dist_student_mobility`, `dist_grad_rate`, `county_demographics`
 
 <br>
 
