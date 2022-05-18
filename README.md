@@ -19,6 +19,9 @@
 
 <br>
 
+## [Data Sources](source_data)
+- Retrieved from **Socrata Open Data API** under the `data.colorado.gov` endpoint
+
 ## [Prepared Data](prepared_data)
 - Modified/engineered datasets to use in analyses
 
