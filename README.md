@@ -30,7 +30,7 @@
 - Predicting crime rates with **multilinear regression**
 - Clustering counties based on a holistic view of crime activity
 
-## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/easel.blue.svg" height="25"/> &nbsp; Presentation &nbsp; <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/chevron.right.blue.svg" height="18"/>](presentation)
+## [<img src="https://github.com/ryayoung/icons/blob/main/svg/easel.blue.svg" height="25"/> &nbsp; Presentation &nbsp; <img src="https://github.com/ryayoung/icons/blob/main/svg/chevron.right.blue.svg" height="18"/>](presentation)
 - Key findings and interpretations
 - Presentation slide deck for Denver Police
 
