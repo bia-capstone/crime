@@ -16,21 +16,21 @@
 
 <br>
 
-## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/stack.overflow.blue.svg" height="25"/> &nbsp; Data Sources](source_data/README.md)
+## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/stack.overflow.blue.svg" height="25"/> &nbsp; Data Sources &nbsp; <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/chevron.right.blue.svg" height="18"/>](source_data/README.md)
 - Retrieved from **Socrata Open Data API** under the `data.colorado.gov` endpoint
 
-## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/funnel.blue.svg" height="25"/> &nbsp; Prepared Data](prepared_data)
+## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/funnel.blue.svg" height="25"/> &nbsp; Prepared Data &nbsp; <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/chevron.right.blue.svg" height="18"/>](prepared_data)
 - Modified/engineered datasets to use in analyses
 
-## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/bar.chart.line.blue.svg" height="25"/> &nbsp; Visualization](visualization)
+## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/bar.chart.line.blue.svg" height="25"/> &nbsp; Visualization &nbsp; <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/chevron.right.blue.svg" height="18"/>](visualization)
 - Initial visualizations to better understand data prior to analysis
 - Final visualizations to communicate key findings and model results
 
-## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/gear.blue.svg" height="25"/> &nbsp; Models](models)
+## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/gear.blue.svg" height="25"/> &nbsp; Models &nbsp; <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/chevron.right.blue.svg" height="18"/>](models)
 - Predicting crime rates with **multilinear regression**
 - Clustering counties based on a holistic view of crime activity
 
-## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/easel.blue.svg" height="25"/> &nbsp; Presentation](presentation)
+## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/easel.blue.svg" height="25"/> &nbsp; Presentation &nbsp; <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/chevron.right.blue.svg" height="18"/>](presentation)
 - Key findings and interpretations
 - Presentation slide deck for Denver Police
 
