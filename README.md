@@ -16,17 +16,17 @@
 
 <br>
 
-## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/stack.overflow.blue.svg" height="25"/> &nbsp; Data Sources &nbsp; <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/chevron.right.blue.svg" height="18"/>](source_data/README.md)
+## [<img src="https://github.com/ryayoung/icons/blob/main/svg/stack.overflow.blue.svg" height="25"/> &nbsp; Data Sources &nbsp; <img src="https://github.com/ryayoung/icons/blob/main/svg/chevron.right.blue.svg" height="18"/>](source_data/README.md)
 - Retrieved from **Socrata Open Data API** under the `data.colorado.gov` endpoint
 
-## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/funnel.blue.svg" height="25"/> &nbsp; Prepared Data &nbsp; <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/chevron.right.blue.svg" height="18"/>](prepared_data)
+## [<img src="https://github.com/ryayoung/icons/blob/main/svg/funnel.blue.svg" height="25"/> &nbsp; Prepared Data &nbsp; <img src="https://github.com/ryayoung/icons/blob/main/svg/chevron.right.blue.svg" height="18"/>](prepared_data)
 - Modified/engineered datasets to use in analyses
 
-## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/bar.chart.line.blue.svg" height="25"/> &nbsp; Visualization &nbsp; <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/chevron.right.blue.svg" height="18"/>](visualization)
+## [<img src="https://github.com/ryayoung/icons/blob/main/svg/bar.chart.line.blue.svg" height="25"/> &nbsp; Visualization &nbsp; <img src="https://github.com/ryayoung/icons/blob/main/svg/chevron.right.blue.svg" height="18"/>](visualization)
 - Initial visualizations to better understand data prior to analysis
 - Final visualizations to communicate key findings and model results
 
-## [<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/gear.blue.svg" height="25"/> &nbsp; Models &nbsp; <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/chevron.right.blue.svg" height="18"/>](models)
+## [<img src="https://github.com/ryayoung/icons/blob/main/svg/gear.blue.svg" height="25"/> &nbsp; Models &nbsp; <img src="https://github.com/ryayoung/icons/blob/main/svg/chevron.right.blue.svg" height="18"/>](models)
 - Predicting crime rates with **multilinear regression**
 - Clustering counties based on a holistic view of crime activity
 
@@ -165,7 +165,7 @@
 <table>
     <tr>
         <td> <img width="200" alt="Screen Shot 2022-05-16 at 4 50 38 PM" src="https://user-images.githubusercontent.com/90723578/168773427-de4c1aa7-bb5e-4ae2-8185-507bf4d52fce.png"> </td>
-        <td> <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/arrow.right.svg" height="25"/> </td>
+        <td> <img src="https://github.com/ryayoung/icons/blob/main/svg/arrow.right.svg" height="25"/> </td>
         <td> <img width="300" alt="Screen Shot 2022-05-16 at 4 51 26 PM" src="https://user-images.githubusercontent.com/90723578/168773412-722b5a2f-21fa-4948-b8f3-1ef9d2c3efc0.png"> </td>
     </tr>
 </table>
