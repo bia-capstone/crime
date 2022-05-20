@@ -93,8 +93,6 @@
 #### District Student Mobility/Stability Statistics for 2011-2012
 - This dataset will be used to answer questions about student homelessness and other student populations (noted below) from the 2011-2012 school year. This 184-row dataset is aggregated by school year and school district and includes rows for state totals. It contains 60 columns, with aggregations on pupil count, stable student count, stability, mobility, instances for mobility, and mobility incidence for the following student populations: students with disabilities, English language learners, economically disadvantaged, migrant students, title 1 students, homeless students, and gifted & talented students. [This online resource](http://www.cde.state.co.us/cdereval/mobility-stabilitycurrent) explains how the rates are calculated.  
 
-
-
 <br>
 <a id='part2'></a>
 
