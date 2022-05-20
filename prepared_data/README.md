@@ -1,6 +1,6 @@
-[<img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/arrow.left.blue.svg" height="30"/>](https://github.com/bia-capstone/crime)
+[<img src="https://github.com/ryayoung/icons/blob/main/svg/arrow.left.blue.svg" height="30"/>](https://github.com/bia-capstone/crime)
 
-# <img src="https://github.com/ryayoung/ryayoung/blob/main/Buttons/symbol/table.svg" height="30"/> &nbsp; Prepared Data
+# <img src="https://github.com/ryayoung/icons/blob/main/svg/table.svg" height="30"/> &nbsp; Prepared Data
 
 
 
