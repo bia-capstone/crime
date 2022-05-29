@@ -1,0 +1,2079 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_88290dc3e2f988c49a48eaa9d193debc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_88290dc3e2f988c49a48eaa9d193debc" ></div>
+        
+</body>
+<script>    
+    
+            var map_88290dc3e2f988c49a48eaa9d193debc = L.map(
+                "map_88290dc3e2f988c49a48eaa9d193debc",
+                {
+                    center: [47.56186645833333, -122.30358145833331],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9ef17c39a7d4dd8ecf6072356fc96dfa = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            var circle_marker_ffb3efefa9c4efebdfc89ccd1eb27dd6 = L.circleMarker(
+                [47.56035, -122.31402],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_ffb3efefa9c4efebdfc89ccd1eb27dd6.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 95.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7b59c13e23ca2c8f30f322582267ebbf = L.circleMarker(
+                [47.55062, -122.31827],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_7b59c13e23ca2c8f30f322582267ebbf.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 45.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c7d257a64f91a011bf35e75ff1653f17 = L.circleMarker(
+                [47.58513, -122.31526],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_c7d257a64f91a011bf35e75ff1653f17.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 80.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5c89899d3ff41be3319a14f5bed83d16 = L.circleMarker(
+                [47.57577, -122.31636],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_5c89899d3ff41be3319a14f5bed83d16.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 110.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9ebe3b779c179d02e766fc00f0cd0dd2 = L.circleMarker(
+                [47.55004, -122.31742],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_9ebe3b779c179d02e766fc00f0cd0dd2.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 45.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d9b050d71da3766eec0440dc0959c113 = L.circleMarker(
+                [47.57907, -122.31539],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_d9b050d71da3766eec0440dc0959c113.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 108.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f68b19fb6cf87f0c6d386457b79a01ab = L.circleMarker(
+                [47.57169, -122.30951],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_f68b19fb6cf87f0c6d386457b79a01ab.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 3<br>Rent: 68.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e29936019b93f130c85ac39dcdef1175 = L.circleMarker(
+                [47.57638, -122.30253],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_e29936019b93f130c85ac39dcdef1175.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 46.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2e43a29cac9ac38b3a388e1e2e68c739 = L.circleMarker(
+                [47.57779, -122.30258],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_2e43a29cac9ac38b3a388e1e2e68c739.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 45.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d663dec617dfba39e7beb2ed017d24fe = L.circleMarker(
+                [47.57272, -122.30735],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_d663dec617dfba39e7beb2ed017d24fe.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 3<br>Rent: 68.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_39cb19ec12dcba71a61041a7a755217c = L.circleMarker(
+                [47.58002, -122.30686],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_39cb19ec12dcba71a61041a7a755217c.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 135.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_896ae421e4e582d31fe418271feecfad = L.circleMarker(
+                [47.54296, -122.28905],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_896ae421e4e582d31fe418271feecfad.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 45.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b69f2eece60ec9ce3b5452c14a8712ed = L.circleMarker(
+                [47.56077, -122.29431],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_b69f2eece60ec9ce3b5452c14a8712ed.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 55.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_56219dc95b969ecc1c7bc0460469b027 = L.circleMarker(
+                [47.54176, -122.28929],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_56219dc95b969ecc1c7bc0460469b027.bindTooltip(
+                `<div>
+                     Neighborhood: Holly Park<br>Is available: No<br>Accommodates: 2<br>Rent: 45.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4d787560c8f02cc1463d02c9b5997f36 = L.circleMarker(
+                [47.57878, -122.30796],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_4d787560c8f02cc1463d02c9b5997f36.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 63.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a37bdfd19f306db3a553460848e6debf = L.circleMarker(
+                [47.584, -122.3112],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_a37bdfd19f306db3a553460848e6debf.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 98.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b0ab79c6fce42821acebfe164a01027b = L.circleMarker(
+                [47.58791, -122.3082],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_b0ab79c6fce42821acebfe164a01027b.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 90.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a837bfb77c3db3b7463db166e7f3a12d = L.circleMarker(
+                [47.56583, -122.31492],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_a837bfb77c3db3b7463db166e7f3a12d.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 95.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8744d9af5e08d034624bdd26ee54bcb8 = L.circleMarker(
+                [47.57707, -122.30316],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_8744d9af5e08d034624bdd26ee54bcb8.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 25.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5c36e27b4380a913e435487462086c36 = L.circleMarker(
+                [47.57806, -122.31401],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_5c36e27b4380a913e435487462086c36.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 480.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4e77f09888255eb04cc4e28d8adeb626 = L.circleMarker(
+                [47.56082, -122.29564],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_4e77f09888255eb04cc4e28d8adeb626.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 35.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_79d0d0b086d46856bd167224fa82c3dd = L.circleMarker(
+                [47.5592, -122.29448],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_79d0d0b086d46856bd167224fa82c3dd.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 55.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5094f74deba214693b892a683a6854a6 = L.circleMarker(
+                [47.56109, -122.29616],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_5094f74deba214693b892a683a6854a6.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 35.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dd081439888486404d47086cbca3f6cb = L.circleMarker(
+                [47.55552, -122.30332],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_dd081439888486404d47086cbca3f6cb.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 3<br>Rent: 111.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e9f4e9d7d5564a3f1690b963c9ccac4d = L.circleMarker(
+                [47.57288, -122.30988],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_e9f4e9d7d5564a3f1690b963c9ccac4d.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 3<br>Rent: 84.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_73e0f3bb74c746ae01f1a024e8d618ed = L.circleMarker(
+                [47.57739, -122.30436],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_73e0f3bb74c746ae01f1a024e8d618ed.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 65.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f6d1db9dbfd7cdac9d18b01be268def9 = L.circleMarker(
+                [47.57743, -122.30547],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_f6d1db9dbfd7cdac9d18b01be268def9.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 3<br>Rent: 135.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bfd99a4e7bc00219254d05f97a703bfc = L.circleMarker(
+                [47.55708, -122.3092],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_bfd99a4e7bc00219254d05f97a703bfc.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 85.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f286f2220cb6f865c28b71aad9b298ac = L.circleMarker(
+                [47.58594, -122.31405],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_f286f2220cb6f865c28b71aad9b298ac.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 5<br>Rent: 150.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3e92d8ecca1fda3f7c42a2dd7dc2962e = L.circleMarker(
+                [47.54228, -122.29948],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_3e92d8ecca1fda3f7c42a2dd7dc2962e.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 26.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9e89545348a83d580921a270c60ba741 = L.circleMarker(
+                [47.54905, -122.30357],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_9e89545348a83d580921a270c60ba741.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 88.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_98385531f5dbe40b13eb11f063aa0af6 = L.circleMarker(
+                [47.58624, -122.31676],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_98385531f5dbe40b13eb11f063aa0af6.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 199.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_17b3cf83b2a7d9c555752924e69ede58 = L.circleMarker(
+                [47.55755, -122.30766],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_17b3cf83b2a7d9c555752924e69ede58.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 126.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ac5f322547ae93690311520c2b76bf3c = L.circleMarker(
+                [47.58059, -122.31757],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_ac5f322547ae93690311520c2b76bf3c.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 8<br>Rent: 169.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_59d637b73bcd5bca5ea4298e19c82369 = L.circleMarker(
+                [47.56068, -122.2944],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_59d637b73bcd5bca5ea4298e19c82369.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 45.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_aa68e088f140b0935028b1f133f86737 = L.circleMarker(
+                [47.58579, -122.31113],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_aa68e088f140b0935028b1f133f86737.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 89.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d6671dcd0ed46988f2c242543420c379 = L.circleMarker(
+                [47.54288, -122.30078],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_d6671dcd0ed46988f2c242543420c379.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 30.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b8b2144957788ef5dec05348a77bfcaf = L.circleMarker(
+                [47.58723, -122.3113],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_b8b2144957788ef5dec05348a77bfcaf.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 89.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_26195fe0c00bc5b89654bed3a8f7ce0c = L.circleMarker(
+                [47.59181, -122.31765],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_26195fe0c00bc5b89654bed3a8f7ce0c.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 170.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3935a331da20c4a3834cf2394fd32cb7 = L.circleMarker(
+                [47.58579, -122.31092],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_3935a331da20c4a3834cf2394fd32cb7.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 3<br>Rent: 75.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_80db9b6166bde0f7522fe817d1395988 = L.circleMarker(
+                [47.58881, -122.31391],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_80db9b6166bde0f7522fe817d1395988.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 81.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_18fefef2f11ef40e656a1c69df9b88ef = L.circleMarker(
+                [47.58325, -122.31619],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_18fefef2f11ef40e656a1c69df9b88ef.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 112.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_60f9177ac5205e3b3c200ef02e865463 = L.circleMarker(
+                [47.58717, -122.31193],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_60f9177ac5205e3b3c200ef02e865463.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 78.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_93cc55793be5beed33466a26173b5dd0 = L.circleMarker(
+                [47.57929, -122.31022],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_93cc55793be5beed33466a26173b5dd0.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 100.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fcf7418a71e2b94c846d66f5f599e7c9 = L.circleMarker(
+                [47.58673, -122.31006],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_fcf7418a71e2b94c846d66f5f599e7c9.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 99.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7d345fb4073649d1f2c19e6f824ffd59 = L.circleMarker(
+                [47.51542, -122.28576],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_7d345fb4073649d1f2c19e6f824ffd59.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 5<br>Rent: 89.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_06e666ed8bf5ebfceba695987ff207df = L.circleMarker(
+                [47.58609, -122.31104],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_06e666ed8bf5ebfceba695987ff207df.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 70.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_17885fc2cb348124418f0f7646e82b9d = L.circleMarker(
+                [47.53223, -122.28908],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_17885fc2cb348124418f0f7646e82b9d.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 8<br>Rent: 175.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_02c0181abae52c3f251657c47c224ccf = L.circleMarker(
+                [47.58306, -122.31187],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_02c0181abae52c3f251657c47c224ccf.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 90.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7521eff364b6108624ad3ac2b13d433d = L.circleMarker(
+                [47.58412, -122.31625],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_7521eff364b6108624ad3ac2b13d433d.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 10<br>Rent: 280.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fbae5304a5286a7d237bc9d3cd3c58c4 = L.circleMarker(
+                [47.57388, -122.30479],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_fbae5304a5286a7d237bc9d3cd3c58c4.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 85.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_97f537984cf3ec538d9b19d4b48c2bc6 = L.circleMarker(
+                [47.54958, -122.29628],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_97f537984cf3ec538d9b19d4b48c2bc6.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 3<br>Rent: 60.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d9a26f6be7e45a07efd2189d2a5082ce = L.circleMarker(
+                [47.57724, -122.30647],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_d9a26f6be7e45a07efd2189d2a5082ce.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 87.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7ae5b2127dcfcb8daabf3ca12a4c1cb3 = L.circleMarker(
+                [47.54953, -122.30814],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_7ae5b2127dcfcb8daabf3ca12a4c1cb3.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 3<br>Rent: 99.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c742b9d0b346ec642c39ac265b27e8a9 = L.circleMarker(
+                [47.57831, -122.30907],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_c742b9d0b346ec642c39ac265b27e8a9.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 68.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0c9ce8f0c455ca48ff60140023d49e52 = L.circleMarker(
+                [47.58761, -122.30992],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_0c9ce8f0c455ca48ff60140023d49e52.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 10<br>Rent: 197.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_473766928879182620538bdcf7aa838f = L.circleMarker(
+                [47.57449, -122.31077],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_473766928879182620538bdcf7aa838f.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 110.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_82f148082efd00fb6c43418de1f93280 = L.circleMarker(
+                [47.55509, -122.31218],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_82f148082efd00fb6c43418de1f93280.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 69.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6d6ed63d96a84299ca25d6630319f652 = L.circleMarker(
+                [47.58865, -122.30984],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_6d6ed63d96a84299ca25d6630319f652.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 10<br>Rent: 205.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_404fa82006bf1a7008ddea2f2debb72e = L.circleMarker(
+                [47.52782, -122.28777],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_404fa82006bf1a7008ddea2f2debb72e.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 160.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_00414e59e18785f52c7242bfbff5bd58 = L.circleMarker(
+                [47.57219, -122.29928],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_00414e59e18785f52c7242bfbff5bd58.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 8<br>Rent: 371.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b7647603f4a398efa296ee84d153087e = L.circleMarker(
+                [47.56018, -122.31441],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_b7647603f4a398efa296ee84d153087e.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 80.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f3ecc28dd49416574d22db67d568be2f = L.circleMarker(
+                [47.54543, -122.28819],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_f3ecc28dd49416574d22db67d568be2f.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 67.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6b63755c29658a7af8edcea5e43d601f = L.circleMarker(
+                [47.57113, -122.29954],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_6b63755c29658a7af8edcea5e43d601f.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 44.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f426947f229f43dc2bf1cf9f506ef636 = L.circleMarker(
+                [47.56643, -122.31426],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_f426947f229f43dc2bf1cf9f506ef636.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 127.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5408fe0d4cd631ffc64c3cc93bf05983 = L.circleMarker(
+                [47.58839, -122.31279],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_5408fe0d4cd631ffc64c3cc93bf05983.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 168.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_458b1e2db414a199c3d0123ed92b71f0 = L.circleMarker(
+                [47.53148, -122.29286],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_458b1e2db414a199c3d0123ed92b71f0.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 5<br>Rent: 82.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_62b6cde4508e31981745d81f615aaf1f = L.circleMarker(
+                [47.51915, -122.28482],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_62b6cde4508e31981745d81f615aaf1f.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 48.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3cafa93274a67d9da12df854b9296faa = L.circleMarker(
+                [47.57232, -122.30781],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_3cafa93274a67d9da12df854b9296faa.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 110.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_768ec6d9b4f79328cc4b785db015f70e = L.circleMarker(
+                [47.57433, -122.31126],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_768ec6d9b4f79328cc4b785db015f70e.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 105.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a4de50c397be2cb0d8fe7ab4a0d56889 = L.circleMarker(
+                [47.54731, -122.29722],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_a4de50c397be2cb0d8fe7ab4a0d56889.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 70.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5cd88c8465ef244641f98c733eaf645b = L.circleMarker(
+                [47.54751, -122.29893],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_5cd88c8465ef244641f98c733eaf645b.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 40.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9f755336d9eca3221c85f178b8d97d47 = L.circleMarker(
+                [47.55523, -122.30308],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_9f755336d9eca3221c85f178b8d97d47.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 105.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6ea1654e434f89fa28bebeaccd6c7e44 = L.circleMarker(
+                [47.58818, -122.31624],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_6ea1654e434f89fa28bebeaccd6c7e44.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 93.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_00486b5bcea4ee7b06c9f1f1c4b298cb = L.circleMarker(
+                [47.58086, -122.31225],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_00486b5bcea4ee7b06c9f1f1c4b298cb.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 113.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_139f17f2e2154c22516455323e8ec92b = L.circleMarker(
+                [47.55745, -122.30906],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_139f17f2e2154c22516455323e8ec92b.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 59.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3506b3f212a8711625ba43c72259566f = L.circleMarker(
+                [47.57883, -122.30539],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_3506b3f212a8711625ba43c72259566f.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 101.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bdca54292dfb64e431ae8f8e8f09b42c = L.circleMarker(
+                [47.54798, -122.28984],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_bdca54292dfb64e431ae8f8e8f09b42c.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 11<br>Rent: 189.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_82b1a713e17ce4050a487bd729513faf = L.circleMarker(
+                [47.54978, -122.29474],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_82b1a713e17ce4050a487bd729513faf.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 8<br>Rent: 230.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ba801a092f20b0b0aa5b45aa29b71a30 = L.circleMarker(
+                [47.57369, -122.3067],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_ba801a092f20b0b0aa5b45aa29b71a30.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 3<br>Rent: 74.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_307fd32623ba0428c610de60cc737b16 = L.circleMarker(
+                [47.5508, -122.3174],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_307fd32623ba0428c610de60cc737b16.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 50.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_222c654e8d6c0db85b5058d853ba9d63 = L.circleMarker(
+                [47.56176, -122.31412],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_222c654e8d6c0db85b5058d853ba9d63.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 125.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_edb87900bae330c14e430e4131d8de7b = L.circleMarker(
+                [47.56959, -122.30268],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_edb87900bae330c14e430e4131d8de7b.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 115.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7f14272060edf0f493cedb9e39d91500 = L.circleMarker(
+                [47.54707, -122.29172],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_7f14272060edf0f493cedb9e39d91500.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 111.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_138fdc787f353804563aa8bff19eaccd = L.circleMarker(
+                [47.55812, -122.30915],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_138fdc787f353804563aa8bff19eaccd.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 40.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2e4f177f7ba724df8a0cd63b70d194a7 = L.circleMarker(
+                [47.55658, -122.30934],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_2e4f177f7ba724df8a0cd63b70d194a7.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 39.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bebc255e72bea167531b2da4f09c23a3 = L.circleMarker(
+                [47.58871, -122.31109],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_bebc255e72bea167531b2da4f09c23a3.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 8<br>Rent: 195.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d3d45468d8dda9d793cf26909e030a25 = L.circleMarker(
+                [47.56725, -122.30089],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_d3d45468d8dda9d793cf26909e030a25.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 69.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0b3c265b47d215cf75fa2204fa596f1b = L.circleMarker(
+                [47.55819, -122.30871],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_0b3c265b47d215cf75fa2204fa596f1b.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 40.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_87d89903f501491772d2c2a449410229 = L.circleMarker(
+                [47.51589, -122.28502],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_87d89903f501491772d2c2a449410229.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 99.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_676877231b0eda0c638dca7d1e28642c = L.circleMarker(
+                [47.53363, -122.2902],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_676877231b0eda0c638dca7d1e28642c.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 52.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bbc8c6d850121399e2f7c2078f76a61b = L.circleMarker(
+                [47.54435, -122.28478],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_bbc8c6d850121399e2f7c2078f76a61b.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 89.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ca86c8c4f7c19a9932e5d6e53c8f861f = L.circleMarker(
+                [47.55762, -122.3111],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_ca86c8c4f7c19a9932e5d6e53c8f861f.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 30.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9db46a81a533dec9adebc2a8936cc7fa = L.circleMarker(
+                [47.56669, -122.31493],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_9db46a81a533dec9adebc2a8936cc7fa.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 51.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_582ca5c163ab61abb2ca308e9984f16e = L.circleMarker(
+                [47.57808, -122.31451],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_582ca5c163ab61abb2ca308e9984f16e.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 87.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b4e25d482dc4aa8124b4427517cfa80d = L.circleMarker(
+                [47.54223, -122.30114],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_b4e25d482dc4aa8124b4427517cfa80d.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 38.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a4e084d48cc32583654e0be476143457 = L.circleMarker(
+                [47.54561, -122.28757],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_a4e084d48cc32583654e0be476143457.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 89.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d9b3a2a2b59c31345d3fc16caece6f2e = L.circleMarker(
+                [47.54624, -122.29853],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_d9b3a2a2b59c31345d3fc16caece6f2e.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 180.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_589175ae69b6e1e9022b39b7d18ef84f = L.circleMarker(
+                [47.56467, -122.31447],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_589175ae69b6e1e9022b39b7d18ef84f.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 65.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e277f9c8a68a39f713a922b2e4819839 = L.circleMarker(
+                [47.54971, -122.28809],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_e277f9c8a68a39f713a922b2e4819839.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 64.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5c1cf4a34f815279fcf0f9686cd8c52e = L.circleMarker(
+                [47.53017, -122.28207],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_5c1cf4a34f815279fcf0f9686cd8c52e.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 12<br>Rent: 899.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_34d054e18857d5048c84cf148afab930 = L.circleMarker(
+                [47.53253, -122.2927],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_34d054e18857d5048c84cf148afab930.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 89.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a54202be8293258da641837e7e90c740 = L.circleMarker(
+                [47.58856, -122.31333],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_a54202be8293258da641837e7e90c740.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 39.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_55818a6f6a0385c9ccb23bcbdf5bedb7 = L.circleMarker(
+                [47.59476, -122.31503],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_55818a6f6a0385c9ccb23bcbdf5bedb7.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 131.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_eff963bc248e7cbd440821f00fe44841 = L.circleMarker(
+                [47.58947, -122.31469],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_eff963bc248e7cbd440821f00fe44841.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 45.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b0a2f07c9e457823540d7e2c8096bcf7 = L.circleMarker(
+                [47.58961, -122.31415],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_b0a2f07c9e457823540d7e2c8096bcf7.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 50.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2275eebdaf256f51e47a7ce694eea25c = L.circleMarker(
+                [47.56048, -122.31018],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_2275eebdaf256f51e47a7ce694eea25c.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 65.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1c5e63baf6e77f70a5a936cc164f12d8 = L.circleMarker(
+                [47.54096, -122.29973],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_1c5e63baf6e77f70a5a936cc164f12d8.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 30.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4d8af6f81d7092f073b335bde3029146 = L.circleMarker(
+                [47.54243, -122.30144],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_4d8af6f81d7092f073b335bde3029146.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 61.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6910274cfee6d0adea784a916c65d219 = L.circleMarker(
+                [47.57394, -122.31045],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_6910274cfee6d0adea784a916c65d219.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 71.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9573fd586cef6e81a0d314e86ab1bcab = L.circleMarker(
+                [47.52599, -122.28794],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_9573fd586cef6e81a0d314e86ab1bcab.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 39.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a7db75f09c4903f8224ceb4a11685191 = L.circleMarker(
+                [47.55822, -122.30979],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_a7db75f09c4903f8224ceb4a11685191.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 30.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_13e4b4c7f43841c5f9049e0836b60101 = L.circleMarker(
+                [47.54195, -122.28823],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_13e4b4c7f43841c5f9049e0836b60101.bindTooltip(
+                `<div>
+                     Neighborhood: Holly Park<br>Is available: No<br>Accommodates: 6<br>Rent: 82.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_57ff382ee96d212feb4da5bcb1136c78 = L.circleMarker(
+                [47.58509, -122.31241],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_57ff382ee96d212feb4da5bcb1136c78.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 121.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_871629db353f6527a11d9a567e1eccbf = L.circleMarker(
+                [47.58509, -122.31241],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_871629db353f6527a11d9a567e1eccbf.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 97.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a6db598f6c991eb26912830e2fde3e49 = L.circleMarker(
+                [47.58616, -122.31545],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_a6db598f6c991eb26912830e2fde3e49.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 141.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_516a86879f54afa31454019f5adfd76a = L.circleMarker(
+                [47.51821, -122.28305],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_516a86879f54afa31454019f5adfd76a.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 141.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4cb9b2466ea97f682070b63559196b57 = L.circleMarker(
+                [47.52494, -122.28177],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_4cb9b2466ea97f682070b63559196b57.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 75.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0329d7ff4579e4e0d256b506acc5c3cb = L.circleMarker(
+                [47.54762, -122.28647],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_0329d7ff4579e4e0d256b506acc5c3cb.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 8<br>Rent: 126.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_05fdeeec9b66c7d290a2e44595a4a020 = L.circleMarker(
+                [47.57079, -122.31389],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_05fdeeec9b66c7d290a2e44595a4a020.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 68.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d65a07d8ec393774bdc8a75fa853f287 = L.circleMarker(
+                [47.55015, -122.3169],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_d65a07d8ec393774bdc8a75fa853f287.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 105.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4126e65d4d456bc8c2372af4cca83d8c = L.circleMarker(
+                [47.58495, -122.31686],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_4126e65d4d456bc8c2372af4cca83d8c.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 5<br>Rent: 195.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4ab63a637f7a24b34a0d13abe23b213b = L.circleMarker(
+                [47.54301, -122.29997],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_4ab63a637f7a24b34a0d13abe23b213b.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 40.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7a6f7d2c1bde8c237dc53e337b3e9f4b = L.circleMarker(
+                [47.58766, -122.31769],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_7a6f7d2c1bde8c237dc53e337b3e9f4b.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 82.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_48dca7b5d30c5bd492476fbae84c8378 = L.circleMarker(
+                [47.58997, -122.31652],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_48dca7b5d30c5bd492476fbae84c8378.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 60.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_56686229ab74927c6375c30a32edab6c = L.circleMarker(
+                [47.54539, -122.29393],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_56686229ab74927c6375c30a32edab6c.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 8<br>Rent: 159.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_da69c3d5708e8cb45063a5a5887355d7 = L.circleMarker(
+                [47.52237, -122.2799],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_da69c3d5708e8cb45063a5a5887355d7.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 57.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_919a9b683c9c4398fb89a2a8ae494f8b = L.circleMarker(
+                [47.52225, -122.28169],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_919a9b683c9c4398fb89a2a8ae494f8b.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 43.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_20b8db4d0dbdaf694db190cd145b8998 = L.circleMarker(
+                [47.54607, -122.3059],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_20b8db4d0dbdaf694db190cd145b8998.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 179.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6254079f73283e8645ac1bc0dd019461 = L.circleMarker(
+                [47.52718, -122.28133],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_6254079f73283e8645ac1bc0dd019461.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 50.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_83d5e477ec22d69e36f3be419339185d = L.circleMarker(
+                [47.52859, -122.28202],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_83d5e477ec22d69e36f3be419339185d.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 70.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8b6b483b6be4d35f4963643258d5408a = L.circleMarker(
+                [47.53225, -122.28223],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_8b6b483b6be4d35f4963643258d5408a.bindTooltip(
+                `<div>
+                     Neighborhood: Holly Park<br>Is available: No<br>Accommodates: 2<br>Rent: 39.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e4134e472123cabacba2c8c3ff8e5894 = L.circleMarker(
+                [47.53261, -122.29114],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_e4134e472123cabacba2c8c3ff8e5894.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 54.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3f37a76177cdc9174eff1f53d4f0bbb0 = L.circleMarker(
+                [47.53111, -122.28904],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_3f37a76177cdc9174eff1f53d4f0bbb0.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 57.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_94f167a47daf7d62c6a8a2a339fa5e4b = L.circleMarker(
+                [47.55323, -122.29167],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_94f167a47daf7d62c6a8a2a339fa5e4b.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 113.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3039822afff436a67a839d6a07440e8d = L.circleMarker(
+                [47.53128, -122.28945],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_3039822afff436a67a839d6a07440e8d.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 47.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_27168f7c8ec8f3215acc7fd772bb6011 = L.circleMarker(
+                [47.53086, -122.29091],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_27168f7c8ec8f3215acc7fd772bb6011.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 71.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c7c0d7f791c55e7c7b2fc9f2c7bb74b2 = L.circleMarker(
+                [47.54869, -122.28702],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_c7c0d7f791c55e7c7b2fc9f2c7bb74b2.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 65.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5ded2de3204e03ce82a7261775e5a9fe = L.circleMarker(
+                [47.57889, -122.31318],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_5ded2de3204e03ce82a7261775e5a9fe.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 4<br>Rent: 100.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e6040945717de8bac8a7a771eb40a4db = L.circleMarker(
+                [47.58813, -122.31175],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_e6040945717de8bac8a7a771eb40a4db.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 25.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9886277026daf5bfa669cb83de9d83cf = L.circleMarker(
+                [47.55457, -122.29046],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_9886277026daf5bfa669cb83de9d83cf.bindTooltip(
+                `<div>
+                     Neighborhood: Mid-Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 57.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e9b9e6b44131e55b94cbd4700b08af82 = L.circleMarker(
+                [47.52661, -122.28723],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_e9b9e6b44131e55b94cbd4700b08af82.bindTooltip(
+                `<div>
+                     Neighborhood: South Beacon Hill<br>Is available: No<br>Accommodates: 1<br>Rent: 40.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e424a55a2a5b2cd10f95de4cf948ce2f = L.circleMarker(
+                [47.58558, -122.31326],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_e424a55a2a5b2cd10f95de4cf948ce2f.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 6<br>Rent: 175.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_30387b4d6826a8ef79ea007288fff57d = L.circleMarker(
+                [47.58743, -122.31342],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2}
+            ).addTo(map_88290dc3e2f988c49a48eaa9d193debc);
+        
+    
+            circle_marker_30387b4d6826a8ef79ea007288fff57d.bindTooltip(
+                `<div>
+                     Neighborhood: North Beacon Hill<br>Is available: No<br>Accommodates: 2<br>Rent: 39.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

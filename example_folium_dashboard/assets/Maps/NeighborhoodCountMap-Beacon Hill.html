@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3b812b28c0a1adbf90d7d22c390aa2f8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3b812b28c0a1adbf90d7d22c390aa2f8" ></div>
+        
+</body>
+<script>    
+    
+            var map_3b812b28c0a1adbf90d7d22c390aa2f8 = L.map(
+                "map_3b812b28c0a1adbf90d7d22c390aa2f8",
+                {
+                    center: [47.54991536255412, -122.29654856721982],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_83def7e427aab440ddbf151c9992e88b = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3b812b28c0a1adbf90d7d22c390aa2f8);
+        
+    
+            var circle_marker_a4aef7673fc5fe8a63d815d85943b47e = L.circleMarker(
+                [47.538653333333336, -122.28658333333333],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3b812b28c0a1adbf90d7d22c390aa2f8);
+        
+    
+            circle_marker_a4aef7673fc5fe8a63d815d85943b47e.bindTooltip(
+                `<div>
+                     Holly Park: 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d60950be8787cc4f519434e92bb8e373 = L.marker(
+                [47.538653333333336, -122.28658333333333],
+                {}
+            ).addTo(map_3b812b28c0a1adbf90d7d22c390aa2f8);
+        
+    
+            var div_icon_5a10a9549388bf25b8067f79631780ff = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 9pt font-weight:bold\"\u003e3\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_d60950be8787cc4f519434e92bb8e373.setIcon(div_icon_5a10a9549388bf25b8067f79631780ff);
+        
+    
+            var circle_marker_ae44bcc90a168c39a893b66c7eb7f623 = L.circleMarker(
+                [47.552753333333335, -122.3022874074074],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.348703170028818, "stroke": true, "weight": 3}
+            ).addTo(map_3b812b28c0a1adbf90d7d22c390aa2f8);
+        
+    
+            circle_marker_ae44bcc90a168c39a893b66c7eb7f623.bindTooltip(
+                `<div>
+                     Mid-Beacon Hill: 54
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bbc290b5316042ff3b13cf9ea4ab728 = L.marker(
+                [47.552753333333335, -122.3022874074074],
+                {}
+            ).addTo(map_3b812b28c0a1adbf90d7d22c390aa2f8);
+        
+    
+            var div_icon_e8c22f719fe7bbb573d6e388580a63d0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 9pt font-weight:bold\"\u003e54\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_3bbc290b5316042ff3b13cf9ea4ab728.setIcon(div_icon_e8c22f719fe7bbb573d6e388580a63d0);
+        
+    
+            var circle_marker_0227eb15600a1d20308bd6117b5b88b0 = L.circleMarker(
+                [47.581572878787874, -122.31085924242424],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.077809798270895, "stroke": true, "weight": 3}
+            ).addTo(map_3b812b28c0a1adbf90d7d22c390aa2f8);
+        
+    
+            circle_marker_0227eb15600a1d20308bd6117b5b88b0.bindTooltip(
+                `<div>
+                     North Beacon Hill: 66
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5ed6bb4e257371d5f3d99bc343794c5 = L.marker(
+                [47.581572878787874, -122.31085924242424],
+                {}
+            ).addTo(map_3b812b28c0a1adbf90d7d22c390aa2f8);
+        
+    
+            var div_icon_3cb5b9e8cb6a7244fba9d003d3ecf978 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 9pt font-weight:bold\"\u003e66\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_e5ed6bb4e257371d5f3d99bc343794c5.setIcon(div_icon_3cb5b9e8cb6a7244fba9d003d3ecf978);
+        
+    
+            var circle_marker_8c6b12031e724743734a918fc83920ac = L.circleMarker(
+                [47.52668190476191, -122.28646428571429],
+                {"bubblingMouseEvents": true, "color": "#1B03A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1B03A3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.5936599423631126, "stroke": true, "weight": 3}
+            ).addTo(map_3b812b28c0a1adbf90d7d22c390aa2f8);
+        
+    
+            circle_marker_8c6b12031e724743734a918fc83920ac.bindTooltip(
+                `<div>
+                     South Beacon Hill: 21
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0800ce53fb6518f578a0170f99c450f = L.marker(
+                [47.52668190476191, -122.28646428571429],
+                {}
+            ).addTo(map_3b812b28c0a1adbf90d7d22c390aa2f8);
+        
+    
+            var div_icon_e0057caee9257fe2bdf42ec5e1d76d43 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 9pt font-weight:bold\"\u003e21\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_e0800ce53fb6518f578a0170f99c450f.setIcon(div_icon_e0057caee9257fe2bdf42ec5e1d76d43);
+        
+</script>
